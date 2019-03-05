@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+body,button,textarea{font-family:Noto Sans KR,Dotum,Arial,sans-serif;font-size:12px;}
+
+/*reset
+-------------------------------*/
+
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,caption,td,th,form,fieldset,legend,input{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+li{list-style-type:none;}
+img,fieldset{border:0;vertical-align:middle;}
+#skip_navi,.blind{font-size:0;line-height:0;width:0;height:0;visibility:hidden;position:absolute;left:0;top:0;}
+li img,li a{vertical-align:middle;}
+address,em{font-style:normal;}
+select,input{vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;width:100%;}
+caption{font-size:0;line-height:0;width:0;height:0;visibility:hidden;}
+hr{display:none;}
+a:link{color:#666;text-decoration:none;}
+a:visited{ color:#999;text-decoration:none;}
+a:active{ color:#999;text-decoration:none;}
+a:hover{color:#333;text-decoration:none;}
+textarea{resize:none;margin:0;}
+img{max-width:100%;}
+input[type="radio"]{border:0 none !important;width:13px;height:13px;}
+input[type="checkbox"]{width:13px;height:13px;}
+button{cursor:pointer;margin:0; padding:0;background:none;border:0 none;font-weight:bold;vertical-align:middle;}
+.blind,legend{font-size:0;height:0;line-height:0;margin:0;overflow:hidden;padding:0;position:absolute;visibility:hidden;width:0;}
+*{-webkit-text-size-adjust:none;}

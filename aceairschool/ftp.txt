@@ -1,0 +1,4 @@
+http://ace.sangrimcoms.net/
+id: ace
+pw: ace33%5611
+port: 21

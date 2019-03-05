@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=984">
+<title>JOEYFORLIFE</title>
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&amp;subset=korean" rel="stylesheet">
+<link rel="stylesheet" href="style/css/reset.css">
+<link rel="stylesheet" href="style/css/swiper.min.css">
+<link rel="stylesheet" href="style/css/style.css">
+</head>
+<body>
+<div id="wrap">
+	<div class="header_wrap">
+		<div class="header_top_nav">
+			<ul>
+				<li class="active"><a href="#">KOREA</a></li>
+				<li><a href="#">ENG</a></li>
+				<li class="nav_search">
+					<a href="#"><span class="sp">검색</span></a>
+				</li>
+				<li class="nav_sitemap">
+					<a href="#"><span class="sp">사이트맵</span></a>
+				</li>
+			</ul>
+		</div>
+		<div id="header">
+			<div class="header_inner clear_fix">
+				<h1 class="logo"><a href="#" class="sp">조이포라이프</a></h1>
+				<div class="gnb_wrap">
+					<ul id="gnb">
+						<li>
+							<a href="#" class="btn_nav"><span>JOEYFORLIFE</span></a>
+							<div id="gnb_menu1" class="gnb_menu sp_before">
+								<dl>
+									<dt><a href="#" class="sp_after">조이포라이프</a></dt>
+									<dd class="active"><a href="#">· 회사소개</a></dd>
+									<dd><a href="#">· 비전</a></dd>
+									<dd><a href="#">· 연혁</a></dd>
+									<dd><a href="#">· 인증</a></dd>
+									<dd><a href="#">· 납부실적</a></dd>
+									<dd><a href="#">· 오시는 길</a></dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<a href="#" class="btn_nav"><span>PRODUCT</span></a>
+							<div id="gnb_menu2" class="gnb_menu sp_before">
+								<strong class="tit">PRODUCT <a href="#" class="btn_all sp_after">전제품보기</a></strong>
+								<dl>
+									<dt><a href="#" class="sp_after">샤워헤드</a></dt>
+									<dd><a href="#">· LUMOS 시리즈</a></dd>
+									<dd>
+										<a href="#">· 럭셔리 스타일</a>
+										<ul>
+											<li><a href="#">샤인 SHINE</a></li>
+											<li><a href="#">럭스 LUX</a></li>
+											<li><a href="#">다이나믹 DYNAMIC</a></li>
+											<li><a href="#">돌체 DOLCE</a></li>
+											<li><a href="#">라미 LAMI</a></li>
+											<li><a href="#">볼드 BOLD</a></li>
+											<li><a href="#">에델배드 EDELBAD</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a href="#">· 프리미엄 스타일</a>
+										<ul>
+											<li><a href="#">매립형 BUILD-IN</a></li>
+											<li><a href="#">매립형 LED BUILD-IN LED</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a href="#">· LOSH 스리즈</a>
+										<ul>
+											<li><a href="#">5T BASIC</a></li>
+											<li><a href="#">5T SPECIAL</a></li>
+											<li><a href="#">7T BASIC</a></li>
+											<li><a href="#">7T SPECIAL</a></li>
+										</ul>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="#" class="sp_after">수전</a></dt>
+									<dd>
+										<a href="#">· 디터치</a>
+										<ul>
+											<li><a href="#">1기능</a></li>
+											<li><a href="#">2기능</a></li>
+											<li><a href="#">3기능</a></li>
+										</ul>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="#" class="sp_after">ACCESSORISE</a></dt>
+									<dd>
+										<a href="#">· 핸드샤워</a>
+										<ul>
+											<li><a href="#">MAZE</a></li>
+											<li><a href="#">BASIC HANDSHOWER</a></li>
+										</ul>
+									</dd>
+									<dd><a href="#">· 슬라이딩 바</a></dd>
+									<dd>
+										<a href="#">· 샤워암</a>
+										<ul>
+											<li><a href="#">벽부형</a></li>
+											<li><a href="#">전장형</a></li>
+										</ul>
+									</dd>
+									<dd><a href="#">· 샤워유니온</a></dd>
+									<dd><a href="#">· 메탈호스</a></dd>
+								</dl>
+								<dl>
+									<dt><a href="#" class="sp_after">제품 구성</a></dt>
+									<dd class="blind">상품이 없습니다.</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<a href="#" class="btn_nav"><span>SERVICE</span></a>
+							<div id="gnb_menu3" class="gnb_menu sp_before">
+								<dl>
+									<dt><a href="#" class="sp_after">조이포라이프</a></dt>
+									<dd class="active"><a href="#">· 회사소개</a></dd>
+									<dd><a href="#">· 비전</a></dd>
+								</dl>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="search_box_wrap">
+			<div class="search_box">
+				<input type="text" title="검색어 입력" />
+				<button type="submit" class="btn_search">검색</button>
+				<button type="button" class="btn_close"><span class="sp">닫기</span></button>
+			</div>
+		</div>
+	</div>
+	<div class="layer_wrap layer_sitemap">
+		<div class="sitemap_wrap">
+			<button class="btn_close sp">닫기</button>
+			<ul class="sitemap_list clear_fix">
+				<li class="active">
+					<dl>
+						<dt class="sp_after">JOEYFORLIFE</dt>
+						<dd class="active"><a href="#">· <span>회사소개</span></a></dd>
+						<dd><a href="#">· <span>비전</span></a></dd>
+						<dd><a href="#">· <span>연혁</span></a></dd>
+						<dd><a href="#">· <span>인증</span></a></dd>
+						<dd><a href="#">· <span>납부 실적</span></a></dd>
+						<dd><a href="#">· <span>오시는 길</span></a></dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt class="sp_after">PRODUCT</dt>
+						<dd>
+							<a href="#">· <span>샤워헤드</span></a>
+							<ul>
+								<li><a href="#">· <span>LUMOS 시리즈</span></a></li>
+								<li><a href="#">· <span>럭셔리 스타일</span></a></li>
+								<li><a href="#">· <span>프리미엄 스타일</span></a></li>
+								<li><a href="#">· <span>LOSH 시리즈</span></a></li>
+							</ul>
+						</dd>
+						<dd>
+							<a href="#">· <span>수전</span></a>
+							<ul>
+								<li><a href="#">· <span>디터치</span></a></li>
+							</ul>
+						</dd>
+						<dd>
+							<a href="#">· <span>샤워프로그램</span></a>
+							<ul>
+								<li><a href="#">· <span>핸드샤워</span></a></li>
+								<li><a href="#">· <span>슬라이딩 바</span></a></li>
+								<li><a href="#">· <span>샤워암</span></a></li>
+								<li><a href="#">· <span>샤워유니온</span></a></li>
+								<li><a href="#">· <span>메탈호스</span></a></li>
+							</ul>
+						</dd>
+						<dd><a href="#">· <span>제품 구성</span></a></dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt class="sp_after">SERVICE</dt>
+						<dd><a href="#">· <span>자주하는 질문</span></a></dd>
+						<dd><a href="#">· <span>전국 대리점</span></a></dd>
+					</dl>
+				</li>
+				<li class="info">
+					<dl class="blind">
+						<dt>국내 전화</dt>
+						<dd>031-319-0613</dd>
+						<dt>해외 전화</dt>
+						<dd>070-5038-4799</dd>
+						<dt>메일</dt>
+						<dd>jskim@joeyforlife</dd>
+					</dl>
+				</li>
+			</ul>
+		</div>
+		<div class="dimmed"></div>
+	</div>
+	<div class="content_wrap">
+		<div id="content">
+			<div class="sub sub2_2">
+				<div class="sub_top_visual"></div>
+				<div class="sub_nav_wrap">
+					<div class="sub_nav">
+						<ul>
+							<li>
+								<a href="#" class="btn_home"><span class="sp">메인으로</span></a>
+							</li>
+							<li><a href="#">제품소개</a></li>
+							<li>
+								<dl>
+									<dt>
+										<a href="#" class="sp_after">샤워헤드</a>
+									</dt>
+									<dd class="active"><a href="#">LUMOS 시리즈</a></dd>
+									<dd><a href="#">수전</a></dd>
+									<dd><a href="#">샤워프로그램</a></dd>
+									<dd><a href="#">제품 구성</a></dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>
+										<a href="#" class="sp_after">LUMOS 시리즈</a>
+									</dt>
+									<dd class="active"><a href="#">LUMOS 시리즈</a></dd>
+									<dd><a href="#">수전</a></dd>
+									<dd><a href="#">샤워프로그램</a></dd>
+								</dl>
+							</li>
+						</ul>
+						<a href="#" class="btn_print"><span class="sp">프린트하기</span></a>
+						<a href="#" class="btn_share"><span class="sp">공유하기</span></a>
+					</div>
+				</div>
+				<h2 class="sub_title sp_after">샤워헤드</h2>
+				<div class="noti">LUMOS 시리즈</div>
+				<div class="sub_tab">
+					<ul>
+						<li class="active"><a href="#">LUMOS</a></li>
+						<li><a href="#">LUMOS</a></li>
+						<li><a href="#">LUMOS</a></li>
+					</ul>
+				</div>
+				<div class="cont_box">
+					<div class="view_detail_wrap">
+						<div class="img_area">
+							<img src="https://dummyimage.com/370x275/000/fff.jpg" alt="">
+							<a href="#" class="btn_detail"><span class="sp">자세히보기</span></a>
+						</div>
+						<div class="info_area">
+							<dl>
+								<dt>샤인 워터풀 <a href="#" class="btn_share sp">공유하기</a></dt>
+								<dd>YW450.C02.CR</dd>
+								<dd>3 기능 샤워헤드 : <br>워터풀, 인텐스, 라인</dd>
+							</dl>
+							<div class="swiper_wrap">
+								<div class="swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<img src="https://dummyimage.com/128x84/000/fff.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="https://dummyimage.com/128x84/000/fff.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="https://dummyimage.com/128x84/000/fff.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="https://dummyimage.com/128x84/000/fff.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="https://dummyimage.com/128x84/000/fff.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="https://dummyimage.com/128x84/000/fff.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="btn_area">
+									<a href="#" class="btn_prev"><span class="sp">이전</span></a>
+									<a href="#" class="btn_next"><span class="sp">다음</span></a>
+								</div>
+							</div>
+						</div>
+						<div class="select_area">
+							<select>
+								<option>선택하세요.</option>
+							</select>
+						</div>
+					</div>
+					<div class="control_area">
+						<ul>
+							<li>
+								<a href="#" class="btn_prev"><span class="sp">이전 목록</span></a>
+							</li>
+							<li>
+								<a href="#" class="btn_next"><span class="sp">다음 목록</span></a>
+							</li>
+						</ul>
+						<a href="#" class="btn_list sp_before">LIST</a>
+					</div>
+					<div class="detail_info_wrap">
+						<div class="left_section">
+							<strong class="tit sp_after">기술문서</strong>
+							<ul>
+								<li>
+									<span class="tit">도면</span>
+									<a href="#"><img src="img/icon_pdf.png" alt=""></a>
+								</li>
+								<li>
+									<span class="tit">AutoCAD 파일</span>
+									<a href="#"><img src="img/icon_dxf.png" alt=""></a>
+									<a href="#"><img src="img/icon_lsp.png" alt=""></a>
+									<a href="#"><img src="img/icon_dwg.png" alt=""></a>
+								</li>
+								<li class="inline">
+									<span class="tit">설치 설명서</span>
+									<a href="#"><img src="img/icon_pdf.png" alt=""></a>
+								</li>
+								<li class="inline">
+									<span class="tit">제품 정보</span>
+									<a href="#"><img src="img/icon_pdf.png" alt=""></a>
+								</li>
+							</ul>
+						</div>
+						<div class="right_section">
+							<strong class="tit sp_after">기술문서</strong>
+							<ul>
+								<li>• Chrome Plating</li>
+								<li>• 3 기능 샤워헤드 : 워터풀, 인텐스, 라인</li>
+								<li>• 매립형 샤워헤드</li>
+								<li>• LED 샤워헤드</li>
+								<li>• 600 x 450 mm</li>
+								<li>• 설치하기 쉽다</li>
+							</ul>
+						</div>
+					</div>
+					<div class="related_goods">
+						<div class="info_area">
+							<strong class="tit">RELATED <br>GOODS</strong>
+							<p>총 <span class="num">2</span> 개의 관련제품이 <br>준비되어 있습니다.</p>
+						</div>
+						<a href="#" class="btn_prev"><span class="sp">이전</span></a>
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<a href="#">
+										<img src="https://dummyimage.com/136x100/000/fff.jpg" alt="">
+										샤워 인터풀
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#">
+										<img src="https://dummyimage.com/136x100/000/fff.jpg" alt="">
+										샤워 인터풀
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#">
+										<img src="https://dummyimage.com/136x100/000/fff.jpg" alt="">
+										샤워 인터풀
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#">
+										<img src="https://dummyimage.com/136x100/000/fff.jpg" alt="">
+										샤워 인터풀
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#">
+										<img src="https://dummyimage.com/136x100/000/fff.jpg" alt="">
+										샤워 인터풀
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#">
+										<img src="https://dummyimage.com/136x100/000/fff.jpg" alt="">
+										샤워 인터풀
+									</a>
+								</div>
+							</div>
+						</div>
+						<a href="#" class="btn_next"><span class="sp">다음</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a href="#" class="btn_top sp fixed">맨 위로</a>
+	<div class="footer_wrap">
+		<div id="footer">
+			<div class="top_info">
+				<div class="footer_nav_wrap">
+					<dl>
+						<dt>BRAND AGENT</dt>
+						<dd><a href="#" class="sp_after">KOHLER</a></dd>
+						<dd><a href="#" class="sp_after">PAFFONI</a></dd>
+						<dd><a href="#" class="sp_after">KALDEWEI</a></dd>
+						<dd><a href="#" class="sp_after">ATLAS CONCORDE</a></dd>
+					</dl>
+					<dl>
+						<dt>SNS</dt>
+						<dd><a href="#" class="sp_after">BLOG</a></dd>
+						<dd><a href="#" class="sp_after">INSTAGRAM</a></dd>
+						<dd><a href="#" class="sp_after">FACEBOOK</a></dd>
+						<dd><a href="#" class="sp_after">TWITTER</a></dd>
+					</dl>
+					<dl>
+						<dt>MAP</dt>
+						<dd><a href="#">화성 본사 / 오시는 길</a></dd>
+						<dd><a href="#">안산 지점 / 오시는 길</a></dd>
+						<dd><a href="#">서울 지점 / 오시는 길</a></dd>
+					</dl>
+					<dl>
+						<dt>CONTACT US</dt>
+						<dd>
+							<span class="tit">국내</span>
+							<span class="cont sp_before phone">031-319-0613</span>
+						</dd>
+						<dd>
+							<span class="tit">해외</span>
+							<span class="cont sp_before phone">070-5038-4799</span><br>
+							<span class="cont sp_before mail">jskim@joeyforlife.com</span>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="bottom_info">
+				<dl>
+					<dt>회사명 :</dt>
+					<dd>(주)조이포라이프 <span class="bar">|</span></dd>
+					<dt>대표이사 :</dt>
+					<dd>하기호 <span class="bar">|</span></dd>
+					<dt>사업자등록증번호 :</dt>
+					<dd>119-00-12121 <span class="bar">|</span></dd>
+					<dt>통신판매업신고번호 :</dt>
+					<dd>서울 서초구-20180303-1호</dd>
+				</dl>
+				<dl>
+					<dt>화성 본사 :</dt>
+					<dd>경기도 화성시 장안면 장안로 480-192 <span class="bar">|</span></dd>
+					<dt>안산 지점(제2공장) :</dt>
+					<dd>경기도 안산시 단원구 점단로 245-54 2층 <span class="bar">|</span></dd>
+					<dt>서울 지점 :</dt>
+					<dd>서울특별시 서초구 동산로6길 16 (양재동) 402호</dd>
+				</dl>
+			</div>
+			<p class="copyright">copyright(c)  joeyforlife CO.,LTD.  All Rights Reserved.</p>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="style/js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="style/js/jquery.slides.min.js"></script>
+<script type="text/javascript" src="style/js/swiper.js"></script>
+<script type="text/javascript" src="style/js/style.js"></script>
+<script>
+	var mySwiper = new Swiper('.view_detail_wrap .swiper-container',{
+	    pagination: false,
+	    slidesPerView: 3,
+	    loop: true
+	});
+	$('.view_detail_wrap .info_area .btn_prev').on('click', function(e){
+		e.preventDefault()
+		mySwiper.swipePrev()
+	});
+	$('.view_detail_wrap .info_area .btn_next').on('click', function(e){
+		e.preventDefault()
+		mySwiper.swipeNext()
+	});
+
+	var mySwiper2 = new Swiper('.related_goods .swiper-container',{
+	    pagination: false,
+	    slidesPerView: 4,
+	    loop: true
+	});
+	$('.related_goods .btn_prev').on('click', function(e){
+		e.preventDefault()
+		mySwiper2.swipePrev()
+	});
+	$('.related_goods .btn_next').on('click', function(e){
+		e.preventDefault()
+		mySwiper2.swipeNext()
+	});
+</script>
+</body>
+</html>

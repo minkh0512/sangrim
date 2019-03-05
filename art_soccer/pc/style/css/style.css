@@ -1,0 +1,104 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body,button,textarea{font-family:'Nanum Gothic', sans-serif} /* 나눔바른고딕 적용 위치 */
+
+
+/* common */
+.clear_fix:after{content:'';display:block;clear:both}
+
+#wrap{}
+.header_wrap{position:absolute;top:0;left:0;right:0;z-index:100;min-width:1600px;height:94px;background:rgba(0,0,0,.64)}
+#header{position:relative;width:1200px;height:94px;margin:0 auto}
+#header .logo{position:absolute;top:0;left:0}
+#header .logo a{display:block;width:116px;height:94px;padding-top:11px}
+#header .gnb{position:absolute;top:0;right:0}
+#header .gnb li{float:left}
+#header .gnb a{display:block;height:94px;padding:0 34px}
+#header .gnb li:last-child a{padding-right:0}
+#header .gnb1 a{padding-top:27px}
+#header .gnb1.on a{padding-top:14px}
+#header .gnb2 a{padding-top:27px}
+#header .gnb3 a{padding-top:33px}
+#header .gnb3.on a{padding-top:13px}
+#header .gnb4 a{padding-top:33px}
+#header .gnb4.on a{padding-top:12px}
+#header .gnb5 a{padding-top:36px}
+#header .gnb5.on a{padding-top:12px}
+
+.footer_wrap{position:absolute;right:0;bottom:0;left:0;z-index:90;min-width:1600px;height:68px;background:rgba(0,0,0,.6)}
+#footer{width:1200px;margin:0 auto;text-align:center}
+#footer .copyright{padding-top:31px}
+#footer .copyright img{vertical-align:top}
+
+html,
+body,
+#wrap,
+.content_wrap,
+#content{height:100%}
+
+/* main */
+.main{overflow:hidden;position:relative;min-width:1600px;height:100%}
+.main .slide_wrap{height:100%}
+.main .slide_area{height:100%}
+.main #slides{height:100%}
+.main .slide_area .slidesjs-container{height:100% !important;z-index:0}
+.main .slide_area .slidesjs-control{height:100% !important}
+.main .slide_area .slide_item{height:100% !important}
+.main .slide_area .slidesjs-pagination,
+.main .slide_area .slidesjs-play,
+.main .slide_area .slidesjs-stop{display:none !important}
+.main .slide_area .slidesjs-navigation{display:block;overflow:hidden;position:absolute;top:50%;width:74px;height:74px;margin-top:-37px;text-indent:-999em}
+.main .slide_area .slidesjs-previous{left:50%;margin-left:-800px;background:url(../../img/btn_prev.png) no-repeat}
+.main .slide_area .slidesjs-next{right:50%;margin-right:-800px;background:url(../../img/btn_next.png) no-repeat}
+.main .slide_area .slide_item{height:730px;background-repeat:no-repeat;background-position:center top}
+.main .slide_area .slide_item1{background-image:url(../../img/main_visual1.jpg)}
+.main .slide_area .slide_item2{background-image:url(../../img/main_visual2.jpg)}
+.main .slide_area .slide_item3{background-image:url(../../img/main_visual3.jpg)}
+.main .sns_list{position:absolute;top:685px;left:50%;width:126px;height:65px;margin-left:-600px;padding-top:30px;background:url(../../img/sns.png) no-repeat}
+.main .sns_list li{float:left;margin-left:10px}
+.main .sns_list li:first-child{margin-left:0}
+.main .sns_list a{display:block;width:35px;height:35px;overflow:hidden;text-indent:-999em}
+
+
+#wrap.sub_wrap{height:auto;background:#000}
+.sub_wrap .header_wrap{min-width:1200px}
+.sub_wrap .footer_wrap{position:relative;min-width:1200px;background:#292929}
+.sub_wrap .sub_top{position:relative;height:462px}
+.sub_wrap .sub_top .location_wrap{position:absolute;right:0;bottom:0;left:0;height:44px;background:rgb(48,51,62,.6);line-height:44px}
+.sub_wrap .sub_top .location{width:1200px;margin:0 auto;font-size:11px;color:#fff}
+.sub_wrap .sub_top .location .current{display:inline-block;font-weight:normal;color:#b0c5fd}
+.sub_wrap .sub_top .location *{margin-left:18px}
+.sub_wrap .sub_top .location img:first-child{margin-left:0}
+.sub_wrap .sub{min-width:1200px}
+.sub_wrap .sub1_1 .sub_top{background:url(../../img/sub_visual1.jpg) no-repeat 50% 0}
+.sub_wrap .sub1_1 .sub_cont{position:relative;width:1200px;height:1158px;margin:0 auto;background:url(../../img/sub1_1.jpg) no-repeat 50% 0}
+.sub_wrap .sub1_1 .history{position:absolute;top:690px;left:0;width:600px;height:468px}
+.sub_wrap .sub1_1 .history_box{overflow:visible !important;height:100%}
+.sub_wrap .sub1_1 .history_box .slidesjs-container{height:100% !important}
+.sub_wrap .sub1_1 .slidesjs-pagination{display:none}
+.sub_wrap .sub1_1 .slidesjs-play{display:none}
+.sub_wrap .sub1_1 .slidesjs-stop{display:none}
+.sub_wrap .sub1_1 .slidesjs-previous,
+.sub_wrap .sub1_1 .slidesjs-next{display:block;overflow:hidden;position:absolute;top:-61px;width:40px;height:40px;text-indent:-999em}
+.sub_wrap .sub1_1 .slidesjs-previous{right:44px}
+.sub_wrap .sub1_1 .slidesjs-next{right:0}
+.sub_wrap .sub2_1 .sub_top{background:url(../../img/sub_visual2.jpg) no-repeat 50% 0}
+.sub_wrap .sub2_1 .sub_cont{position:relative;width:1200px;height:1158px;margin:0 auto;background:url(../../img/sub2_1.jpg) no-repeat 50% 0}
+.sub_wrap .sub3_1 .sub_top{background:url(../../img/sub_visual3.jpg) no-repeat 50% 0}
+.sub_wrap .sub3_1 .sub_cont{position:relative;width:1200px;height:1158px;margin:0 auto;background:url(../../img/sub3_1.jpg) no-repeat 50% 0}
+.sub_wrap .sub3_1 .video_box{display:block;position:relative;top:320px;width:854px;height:480px;margin:0 auto;border:1px solid #333}
+.sub_wrap .sub4_1 .sub_top{background:url(../../img/sub_visual4.jpg) no-repeat 50% 0}
+.sub_wrap .sub4_1 .sub_cont{position:relative;width:1200px;height:1158px;margin:0 auto;background:url(../../img/sub4_1.jpg) no-repeat 50% 0}
+.sub_wrap .sub4_1 .form_table{width:960px;margin:0 auto;padding-top:408px}
+.sub_wrap .sub4_1 .form_table table{border-bottom:1px solid #333;background:#000}
+.sub_wrap .sub4_1 .form_table th{border-top:1px solid #333;text-align:left;vertical-align:top}
+.sub_wrap .sub4_1 .form_table th img{margin-left:50px}
+.sub_wrap .sub4_1 .form_table td{padding:10px 110px 10px 0;border-top:1px solid #333}
+.sub_wrap .sub4_1 .form_table table input{display:block;width:100%;height:31px;padding:0 10px;border:2px solid #cbcbcb}
+.sub_wrap .sub4_1 .form_table table textarea{display:block;width:100%;height:74px;padding:5px 10px;border:2px solid #cbcbcb}
+.sub_wrap .sub4_1 .form_table .input_number{display:inline-block;width:82px;height:62px}
+.sub_wrap .sub4_1 .form_table .input_password{width:114px}
+.sub_wrap .sub4_1 .form_table td img{vertical-align:top}
+.sub_wrap .sub4_1 .form_table table p{margin-top:5px;font-size:12px;color:#fff}
+.sub_wrap .sub4_1 .form_table .btn_submit{display:block;margin:22px auto 0}

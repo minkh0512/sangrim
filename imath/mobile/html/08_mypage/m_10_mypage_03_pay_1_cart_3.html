@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/earlyaccess/notosanskr.css">
+<link rel="stylesheet" href="../../style/css/reset.css">
+<link rel="stylesheet" href="../../style/css/style.css">
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="../../style/js/swiper.min.js"></script>
+<title>개념원리</title>
+</head>
+<body>
+<div id="wrap">
+	<div id="header">
+		<div class="inner">
+			<h1 class="logo">
+				<a href="#" class="sp">개념원리</a>
+			</h1>
+			<a href="#" class="btn mypage" title="마이페이지">MY</a>
+			<a href="#" class="btn menu"><span class="sp">메뉴</span></a>
+		</div>
+	</div>
+	<div id="container">
+		<div class="sub_mypage">
+			<div class="mypage_pay_cart">
+				<h2 class="mypage_title">장바구니</h2>
+				<ol class="step_list">
+					<li class="step_list1">
+						<span class="sp sp_after">Step.1</span>장바구니
+					</li>
+					<li class="step_list2 active">
+						<span class="sp sp_after">Step.2</span>주문/결제
+					</li>
+					<li class="step_list3">
+						<span class="sp">Step.3</span>주문완료
+					</li>
+				</ol>
+				<h3 class="mypage_sub_title">주문상품 (5)</h3>
+				<ul class="cart_list coupon_type">
+					<li>
+						<strong class="item_name">[14년 개정] 개념원리 수학 1 전체 특강</strong>
+						<span class="item_type_area">
+							<span class="item_type">강의</span>
+							<span class="item_type book">교재</span>
+						</span>
+						<span class="teacher_name">홍길동 선생님</span>
+						<div class="item_info">
+							<span>수강기간 : 30일</span>
+							<span>수강금액 : 20,000원</span>
+							<span>수량 : 1</span>
+						</div>
+						<div class="form_box">
+							<select class="select_text">
+								<option value="쿠폰선택">쿠폰선택</option>
+							</select>
+							<p class="notice_text">* 2개의 쿠폰을 보유하고 있습니다.</p>
+						</div>
+					</li>
+					<li>
+						<strong class="item_name">[14년 개정] 개념원리 수학 1 전체 특강</strong>
+						<span class="item_type_area">
+							<span class="item_type">강의</span>
+						</span>
+						<span class="teacher_name">홍길동 선생님</span>
+						<div class="item_info">
+							<span>수강기간 : 30일</span>
+							<span>수강금액 : 20,000원</span>
+							<span>수량 : 1</span>
+						</div>
+						<div class="form_box">
+							<select class="select_text">
+								<option value="쿠폰선택">쿠폰선택</option>
+							</select>
+							<p class="notice_text">* 2개의 쿠폰을 보유하고 있습니다.</p>
+						</div>
+					</li>
+					<li>
+						<strong class="item_name">[14년 개정] 개념원리 수학 1 전체 특강</strong>
+						<span class="item_type_area">
+							<span class="item_type book">교재</span>
+						</span>
+						<span class="teacher_name">홍길동 선생님</span>
+						<div class="item_info">
+							<span>수강기간 : 30일</span>
+							<span>수강금액 : 20,000원</span>
+							<span>수량 : 1</span>
+						</div>
+						<div class="form_box">
+							<select class="select_text">
+								<option value="쿠폰선택">쿠폰선택</option>
+							</select>
+							<p class="notice_text">* 2개의 쿠폰을 보유하고 있습니다.</p>
+						</div>
+					</li>
+				</ul>
+				<form>
+					<div class="pay_form">
+						<h3 class="mypage_sub_title">결제정보</h3>
+						<ul class="pay_select_list">
+							<li class="active"><a href="#">신용카드</a></li>
+							<li><a href="#">실시간 계좌이체</a></li>
+							<li><a href="#">무통장입금</a></li>
+							<li><a href="#">휴대폰결제</a></li>
+						</ul>
+						<div class="form_box blank_left">
+							<label for="order_user" class="label left_label">주문자명</label>
+							<input type="text" name="order_user" id="order_user" class="input_text" value="박명수">
+						</div>
+						<div class="form_box blank_left">
+							<label for="pay_user" class="label left_label">입금자명</label>
+							<input type="text" name="pay_user" id="pay_user" class="input_text" value="박명수">
+						</div>
+						<div class="total_payment_box">
+							<div class="payment_box">
+								<em class="title">총 주문금액</em>
+								<span class="payment_option">
+									상품금액
+									<span class="number">165,000 원</span>
+								</span>
+								<span class="payment_option">
+									배송비
+									<span class="number">2,500 원</span>
+								</span>
+							</div>
+							<div class="payment_box">
+								<em class="title">할인금액</em>
+								<span class="payment_option">
+									쿠폰할인
+									<span class="number">2,500 원</span>
+								</span>
+							</div>
+							<div class="total_payment">
+								<strong class="title">총 금액</strong>
+								<span class="price"><span class="number">172,000</span> 원</span>
+							</div>
+						</div>
+						<p class="agree_text">주문하실 상품, 가격, 배송정보, 할인내역 등을 최종 확인 하였으며 구매에 동의하시겠습니까?</p>
+						<div class="check_box">
+							<input type="checkbox" name="agree_payment" id="agree_payment">
+							<label for="agree_payment" class="label">
+								<span class="sp"></span>동의 (전자상거래법 제 8조 제 2항)
+							</label>
+						</div>
+						<h3 class="mypage_sub_title">배송지 정보변경</h3>
+						<div class="check_box_wrap table_type">
+							<div class="check_box">
+								<input type="radio" name="adress_change" id="adress_change1">
+								<label for="adress_change1" class="label">
+									<span class="sp"></span>최근배송지
+								</label>
+							</div>
+							<div class="check_box">
+								<input type="radio" name="adress_change" id="adress_change2">
+								<label for="adress_change2" class="label">
+									<span class="sp"></span>주소록
+								</label>
+							</div>
+							<div class="check_box">
+								<input type="radio" name="adress_change" id="adress_change3">
+								<label for="adress_change3" class="label">
+									<span class="sp"></span>새로입력
+								</label>
+							</div>
+						</div>
+						<div class="form_box">
+							<label for="input_phone_number" class="label">휴대폰 번호</label>
+							<div class="multi_box column3">
+								<span class="column_box">
+									<select name="input_phone_number" title="휴대번호 앞자리" id="input_phone_number" class="select_text">
+										<option value="010">010</option>
+									</select>
+								</span>
+								<span class="column_box">
+									<input type="text" title="두번째자리" value="1234" class="input_text">
+								</span> 
+								<span class="column_box">
+									<input type="text" title="마지막자리" value="4567" class="input_text">
+								</span>
+							</div>
+						</div>
+						<div class="form_box">
+							<label for="input_phone_number2" class="label">휴대폰 번호</label>
+							<div class="multi_box column3">
+								<span class="column_box">
+									<select name="input_phone_number2" title="전화번호 앞자리" id="input_phone_number2" class="select_text">
+										<option value="010">010</option>
+									</select>
+								</span>
+								<span class="column_box">
+									<input type="text" title="두번째자리" value="1234" class="input_text">
+								</span> 
+								<span class="column_box">
+									<input type="text" title="마지막자리" value="4567" class="input_text">
+								</span>
+							</div>
+						</div>
+						<div class="form_box blank_right">
+							<label for="input_address" class="label">주소</label>
+							<input type="text" name="input_address" id="input_address" class="input_text">
+							<div class="blank_box">
+								<a href="#" class="btn_common">주소찾기</a>
+							</div>
+						</div>
+						<div class="form_box">
+							<input type="text" title="주소2" value="서울특별시 송파구 법원로 127 " class="input_text">
+						</div>
+						<div class="form_box">
+							<input type="text" title="주소2" value="대명벨리온 지식산업센터 1409호" class="input_text">
+						</div>
+						<div class="form_box">
+							<label for="input_request" class="label">배송 요청사항</label>
+							<textarea name="input_request" placeholder="배송시 유의사항을 알려주세요." class="input_text"></textarea>
+						</div>
+						<div class="btn_area">
+							<button type="submit" class="btn_common btn_pink">주문</button>
+						</div>
+					</div>
+				</form>
+				<ul class="nav nav_mypage">
+					<li class="nav_list"><a href="#">수강관리</a></li>
+					<li class="nav_list"><a href="#">쪽지관리</a></li>
+					<li class="nav_list"><a href="#">장바구니</a></li>
+					<li class="nav_list"><a href="#">결제정보</a></li>
+					<li class="nav_list"><a href="#">주문배송</a></li>
+					<li class="nav_list"><a href="#">쿠폰함</a></li>
+					<li class="nav_list"><a href="#">일일학습</a></li>
+					<li class="nav_list"><a href="#">공지사항</a></li>
+					<li class="nav_list"><a href="#">1:1 문의</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="inner">
+			<ul class="nav nav_gnb">
+				<li class="nav_list"><a href="#">로그인</a></li>
+				<li class="nav_list"><a href="#">회원가입</a></li>
+				<li class="nav_list"><a href="#">고객센터</a></li>
+			</ul>
+			<ul class="nav nav_footer">
+				<li class="nav_list"><a href="#">이용약관</a></li>
+				<li class="nav_list"><a href="#">개인정보 취급방침</a></li>
+				<li class="nav_list"><a href="#">PC버전</a></li>
+			</ul>
+			<dl class="footer_info">
+				<dt>회사명 :</dt>
+				<dd>(주) 개념원리 |</dd>
+				<dt>대표이사 :</dt>
+				<dd>고사무열<br /></dd>
+				<dt>주소 :</dt>
+				<dd>서울특별시 강남구 강남대로 262 캠코타워 (주)개념원리<br /></dd>
+				<dt>개인정보관리책임자 :</dt>
+				<dd>노성준 |</dd>
+				<dt>개인정보관리담당자 :</dt>
+				<dd>김도현<br /></dd>
+				<dt>사업자등록번호 :</dt>
+				<dd>220-86-64126 |</dd>
+				<dt>사업자등록번호 :</dt>
+				<dd>000-00-0000<br /></dd>
+				<dt>통신판매업 신고번호 :</dt>
+				<dd>제 0000-서울강남-00000호</dd>
+			</dl>
+			<p class="copyright">Copyright(c) by (주)개념원리 All Right Reserved.</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>

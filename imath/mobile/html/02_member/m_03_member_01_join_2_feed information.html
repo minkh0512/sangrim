@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/earlyaccess/notosanskr.css">
+<link rel="stylesheet" href="../../style/css/reset.css">
+<link rel="stylesheet" href="../../style/css/style.css">
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="../../style/js/swiper.min.js"></script>
+<title>개념원리</title>
+</head>
+<body>
+<div id="wrap">
+	<div id="header">
+		<div class="inner">
+			<h1 class="logo">
+				<a href="#" class="sp">개념원리</a>
+			</h1>
+			<a href="#" class="btn mypage" title="마이페이지">MY</a>
+			<a href="#" class="btn menu"><span class="sp">메뉴</span></a>
+		</div>
+	</div>
+	<div id="container">
+		<div class="sub_member">
+			<div class="join_infomation">
+				<h2 class="member_title">만 14세 이상 회원가입</h2>
+				<ol class="step_list">
+					<li class="step_list1">
+						<span class="sp sp_after">Step.1</span>약관동의
+					</li>
+					<li class="step_list2 active">
+						<span class="sp sp_after">Step.2</span>회원정보입력
+					</li>
+					<li class="step_list3">
+						<span class="sp">Step.3</span>가입완료
+					</li>
+				</ol>
+				<div class="join_form">
+					<form>
+						<h3 class="member_sub_title">개인정보 입력</h3>
+						<div class="form_box blank_right text_type">
+							<input type="text" title="사용자이름" class="input_text" readonly value="홍길동" />
+							<div class="blank_box">
+								<p class="notice_text">본인인증을 완료한 이름입니다.</p>
+							</div>
+						</div>
+						<div class="form_box blank_right">
+							<input type="text" title="아이디" placeholder="아이디" class="input_text" />
+							<div class="blank_box">
+								<a href="#" class="btn_common">중복확인</a>
+							</div>
+						</div>
+						<div class="form_box">
+							<input type="password" title="비밀번호" placeholder="비밀번호* (6~10자 영문, 숫자, 특수기호 가능)" class="input_text" />
+						</div>
+						<div class="form_box">
+							<input type="password" title="비밀번호" placeholder="비밀번호 확인*" class="input_text" />
+						</div>
+						<div class="form_box blank_right form_birthday">
+							<input type="text" title="생년월일" placeholder="생년월일 예)19770101" class="input_text" />
+							<div class="blank_box check_box_wrap">
+								<div class="check_box">
+									<input type="radio" name="gender" id="gender_male" />
+									<label for="gender_male" class="label">
+										<span class="sp"></span>남자
+									</label>
+								</div>
+								<div class="check_box">
+									<input type="radio" name="gender" id="gender_female" />
+									<label for="gender_female" class="label">
+										<span class="sp"></span>여자
+									</label>
+								</div>
+							</div>
+							<p class="notice_text">* 생년월일은 양력으로 입력해 주세요.</p>
+						</div>
+						<div class="form_box">
+							<div class="multi_box column3">
+								<span class="column_box">
+									<select name="phone_number" title="휴대번호 앞자리" id="phone_number" class="select_text">
+										<option value="010">010</option>
+									</select>
+								</span>
+								<span class="column_box">
+									<input type="text" title="두번째자리" class="input_text">
+								</span> 
+								<span class="column_box">
+									<input type="text" title="마지막자리" class="input_text">
+								</span>
+							</div>
+						</div>
+						<div class="form_box">
+							<div class="multi_box column2">
+								<span class="column_box">
+									<input type="text" title="이메일주소" placeholder="이메일 입력" class="input_text">
+								</span> 
+								<span class="column_box">
+									<input type="text" title="이메일도메인" class="input_text">
+								</span>
+							</div>
+						</div>
+						<div class="form_box">
+							<select class="select_text">
+								<option value="직접입력">직접입력</option>
+							</select>
+						</div>
+						<div class="form_box blank_right">
+							<input type="text" title="주소" class="input_text" />
+							<div class="blank_box">
+								<a href="#" class="btn_common">주소찾기</a>
+							</div>
+						</div>
+						<div class="form_box">
+							<input type="text" title="주소2" class="input_text" />
+						</div>
+						<div class="form_box">
+							<input type="text" title="주소 직접입력" placeholder="직접입력" class="input_text" />
+						</div>
+						<div class="form_box">
+							<select class="select_text">
+								<option value="학년선택">학년선택</option>
+							</select>
+						</div>
+						<h3 class="member_sub_title">본인인증</h3>
+						<div class="check_box_wrap">
+							<div class="check_box">
+								<input type="radio" name="authentication" id="authentication_phone" />
+								<label for="_authentication_phone" class="label">
+									<span class="sp"></span>휴대폰 인증
+								</label>
+							</div>
+							<div class="check_box">
+								<input type="radio" name="authentication" id="authentication_mail" />
+								<label for="authentication_mail" class="label">
+									<span class="sp"></span>이메일 인증
+								</label>
+							</div>
+						</div>
+						<ul class="send_list">
+							<li><a href="#">인증번호 발송</a></li>
+							<li><a href="#">재발송</a></li>
+						</ul>
+						<div class="form_box blank_right">
+							<input type="text" title="인증번호" placeholder="인증번호 입력" class="input_text" />
+							<div class="blank_box">
+								<a href="#" class="btn_common">인증하기</a>
+							</div>
+						</div>
+						<h3 class="member_sub_title">추가 정보 입력</h3>
+						<div class="form_box blank_right">
+							<input type="text" title="학부모 아이디" placeholder="학부모 아이디" class="input_text" />
+							<div class="blank_box">
+								<a href="#" class="btn_common">찾기</a>
+							</div>
+						</div>
+						<div class="form_box blank_right">
+							<input type="text" title="학교찾기" placeholder="학교찾기 (예 : 개념중학교)" class="input_text" />
+							<div class="blank_box">
+								<a href="#" class="btn_common">찾기</a>
+							</div>
+						</div>
+						<button type="submit" class="btn_common">입력완료</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="inner">
+			<ul class="nav nav_gnb">
+				<li class="nav_list"><a href="#">로그인</a></li>
+				<li class="nav_list"><a href="#">회원가입</a></li>
+				<li class="nav_list"><a href="#">고객센터</a></li>
+			</ul>
+			<ul class="nav nav_footer">
+				<li class="nav_list"><a href="#">이용약관</a></li>
+				<li class="nav_list"><a href="#">개인정보 취급방침</a></li>
+				<li class="nav_list"><a href="#">PC버전</a></li>
+			</ul>
+			<dl class="footer_info">
+				<dt>회사명 :</dt>
+				<dd>(주) 개념원리 |</dd>
+				<dt>대표이사 :</dt>
+				<dd>고사무열<br /></dd>
+				<dt>주소 :</dt>
+				<dd>서울특별시 강남구 강남대로 262 캠코타워 (주)개념원리<br /></dd>
+				<dt>개인정보관리책임자 :</dt>
+				<dd>노성준 |</dd>
+				<dt>개인정보관리담당자 :</dt>
+				<dd>김도현<br /></dd>
+				<dt>사업자등록번호 :</dt>
+				<dd>220-86-64126 |</dd>
+				<dt>사업자등록번호 :</dt>
+				<dd>000-00-0000<br /></dd>
+				<dt>통신판매업 신고번호 :</dt>
+				<dd>제 0000-서울강남-00000호</dd>
+			</dl>
+			<p class="copyright">Copyright(c) by (주)개념원리 All Right Reserved.</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>

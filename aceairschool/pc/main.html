@@ -1,0 +1,803 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=984">
+<title>ACE항공직업전문학교</title>
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&amp;subset=korean" rel="stylesheet">
+<link rel="stylesheet" href="style/css/reset.css">
+<link rel="stylesheet" href="style/css/style.css">
+</head>
+<body>
+<div id="wrap">
+	<div class="header_wrap">
+		<div id="header">
+			<div class="header_inner clear_fix">
+				<h1 class="logo"><a href="#" class="sp">ACE항공직업전문학교</a></h1>
+				<div class="gnb_wrap">
+					<ul id="gnb" class="nav_gnb">
+						<li class="nav_list nav_list1 active">
+							<a href="#" class="btn_depth1">학교안내</a>
+							<ul class="nav_2depth">
+								<li class="nav_2depth_list active"><a href="#" class="btn_depth2">학장인사말</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">ACE발자취</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">교육이념</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">구성도</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">ACE탐방</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">오시는 길</a></li>
+							</ul>
+						</li>
+						<li class="nav_list nav_list2">
+							<a href="#" class="btn_depth1">입학안내</a>
+							<ul class="nav_2depth">
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">모집요강</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">온라인원서접수</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">전형절차소개</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">입시자료요청</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">합격자조회</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">입학Q&amp;A</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">온라인상담</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">학교주변숙소</a></li>
+							</ul>
+						</li>
+						<li class="nav_list nav_list3">
+							<a href="#" class="btn_depth1">항공정비전공</a>
+							<ul class="nav_2depth">
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">ACE항공정비전공</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">학점은행제소개</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">진로로드맵</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">교수소개</a></li>
+							</ul> 
+						</li>
+						<li class="nav_list nav_list4">
+							<a href="#" class="btn_depth1">고교위탁</a>
+							<ul class="nav_2depth">
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">ACE 고교위탁</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">예비위탁과정</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">항공정비과</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">항공서비스과</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">교사소개</a></li>
+							</ul>
+						</li>
+						<li class="nav_list nav_list5">
+							<a href="#" class="btn_depth1">항공서비스입시</a>
+							<ul class="nav_2depth">
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">ACE소개</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">교육안내</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">입학정보</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">합격의전당</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">커뮤니티</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">상담문의</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">Q&amp;A</a></li>
+							</ul>
+						</li>
+						<li class="nav_list nav_list6">
+							<a href="#" class="btn_depth1">직업능력개발</a>
+							<ul class="nav_2depth">
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">일반고특화</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">국가기간전략산업</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">실업자/재직자 과정</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">운영중인 과정</a></li>
+							</ul>
+						</li>
+						<li class="nav_list nav_list7">
+							<a href="#" class="btn_depth1">직업체험</a>
+							<ul class="nav_2depth">
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">항공정비사체험</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">항공승무원체험</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">체험학습신청서</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">체험후기</a></li>
+							</ul>
+						</li>
+						<li class="nav_list nav_list8">
+							<a href="#" class="btn_depth1">커뮤니티</a>
+							<ul class="nav_2depth">
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">ACE뉴스</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">채용정보</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">학습자료실</a></li>
+								<li class="nav_2depth_list"><a href="#" class="btn_depth2">성공스토리</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="quick_menu_wrap">
+					<a href="#" class="btn_quick"><img src="img/img_quick_menu.png" alt="항공서비스 입시 바로가기"></a>
+					<a href="#" class="btn_slide sp">접기</a>
+					<dl class="nav_quick">
+						<dt class="nav_title">입학상담 <span class="number">032)715-7476</span></dt>
+						<dd class="nav_list nav_list1"><a href="#" class="sp_before">입학안내</a></dd>
+						<dd class="nav_list nav_list2"><a href="#" class="sp_before">온라인접수</a></dd>
+						<dd class="nav_list nav_list3"><a href="#" class="sp_before">전형절차소개</a></dd>
+						<dd class="nav_list nav_list4"><a href="#" class="sp_before">항공정비전공<br>(2년 과정)</a></dd>
+						<dd class="nav_list nav_list5"><a href="#" class="sp_before">고교위탁과정<br>(1년 과정)</a></dd>
+						<dd class="nav_list nav_list6"><a href="#" class="sp_before">체험학습신청</a></dd>
+					</dl>
+					<ul class="nav_quick_sns">
+						<li class="nav_list nav_list1">
+							<a href="#"><img src="img/img_quick1.jpg" alt="카카오톡"></a>
+						</li>
+						<li class="nav_list nav_list2"><a href="#" class="sp_before">페이스북</a></li>
+						<li class="nav_list nav_list3"><a href="#" class="sp_before">인스타그램</a></li>
+						<li class="nav_list nav_list4"><a href="#" class="sp_before">네이버블로그</a></li>
+						<li class="nav_list nav_list5"><a href="#" class="sp_before">카카오스토리</a></li>
+					</ul>
+					<a href="#" class="btn_banner"><img src="img/img_quick2.jpg" alt="에이스 탐방"></a>
+					<a href="#" class="btn_direction sp_before"><img src="img/img_quick3.jpg" alt="오시는 길"></a>
+					<ul class="nav_screen">
+						<li class="nav_list"><a href="#" class="btn_link">ACE관</a></li>
+						<li class="nav_list"><a href="#" class="btn_link">SKY관</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="gnb_bg"></div>
+		</div>
+	</div>
+	<div class="content_wrap">
+		<div id="content">
+			<div class="main">
+				<div class="slide_wrap">
+					<div class="slide_area">
+						<h2 class="blind">에이스에서 항공정비를 배워야하는 이유!</h2>
+						<div id="slides">
+							<div class="slide_item slide_item1">
+								<div class="text_box">
+									<p class="tit">에이스에서 항공정비를 배워야하는 이유!</p>
+									<span class="cont">ACE AVIATION OCCUPATIONAL TRAINING INSTITUTE</span>
+									<a href="#" class="btn_detail"><img src="img/img_btn_detail.png" alt="자세히보기"></a>
+								</div>
+							</div>
+							<div class="slide_item slide_item2"></div>
+							<div class="slide_item slide_item3"></div>
+							<div class="slide_item slide_item4">
+								<div class="text_box">
+									<p class="tit">에이스에서 항공정비를 배워야하는 이유!</p>
+									<span class="cont">ACE AVIATION OCCUPATIONAL TRAINING INSTITUTE</span>
+									<a href="#" class="btn_detail"><img src="img/img_btn_detail.png" alt="자세히보기"></a>
+								</div>
+							</div>
+							<div class="slide_item slide_item5">
+								<div class="text_box">
+									<p class="tit">에이스에서 항공정비를 배워야하는 이유!</p>
+									<span class="cont">ACE AVIATION OCCUPATIONAL TRAINING INSTITUTE</span>
+									<a href="#" class="btn_detail"><img src="img/img_btn_detail.png" alt="자세히보기"></a>
+								</div>
+							</div>
+							<div class="slide_item slide_item6">
+								<div class="text_box">
+									<p class="tit">에이스에서 항공정비를 배워야하는 이유!</p>
+									<span class="cont">ACE AVIATION OCCUPATIONAL TRAINING INSTITUTE</span>
+									<a href="#" class="btn_detail"><img src="img/img_btn_detail.png" alt="자세히보기"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slide_menu_area sp_before">
+						<ul class="menu_list_wrap">
+							<li class="menu_list menu_list1">
+								<a href="#" class="btn_menu sp_before">입학안내</a>
+							</li>
+							<li class="menu_list menu_list2">
+								<a href="#" class="btn_menu sp_before">온라인지원</a>
+							</li>
+							<li class="menu_list menu_list3">
+								<a href="#" class="btn_menu sp_before">진로상담</a>
+							</li>
+							<li class="menu_list menu_list4">
+								<a href="#" class="btn_menu sp_before">입학문의</a>
+							</li>
+							<li class="menu_list menu_list5">
+								<a href="#" class="btn_menu sp_before">과정소개</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="main_tab_content">
+					<div class="tab_content_wrap">
+						<div class="tab_content tab_content1">
+							<h3 class="main_title">에이스 과정소개</h3>
+							<div class="nav_tab_wrap">
+								<ul class="nav_tab">
+									<li class="nav_list active"><a href="#" class="btn_tab">과정소개</a></li>
+									<li class="nav_list"><a href="#" class="btn_tab">항공정비전공</a></li>
+									<li class="nav_list"><a href="#" class="btn_tab">학교소식</a></li>
+									<li class="nav_list"><a href="#" class="btn_tab">시설안내</a></li>
+								</ul>
+							</div>
+							<div class="ace_process_wrap">
+								<ul class="process_list_wrap"><!-- [D] 5 번째 li에 "blank_right" 클래스 넣어주세요 -->
+									<li class="precess_list">
+										<a href="#"><img src="img/img_main_tab1.jpg" alt="교육기부 진로체험 기관 인증"></a>
+									</li>
+									<li class="precess_list">
+										<a href="#"><img src="img/img_main_tab1_1.jpg" alt="항공정비 전공과정"></a>
+									</li>
+									<li class="precess_list">
+										<a href="#"><img src="img/img_main_tab1_2.jpg" alt="직업능력개발"></a>
+									</li>
+									<li class="precess_list">
+										<a href="#"><img src="img/img_main_tab1_3.jpg" alt="고교위탁과정"></a>
+									</li>
+									<li class="precess_list blank_right">
+										<a href="#"><img src="img/img_main_tab1_4.jpg" alt="항공정비전공 진로로드맵"></a>
+									</li>
+									<li class="precess_list">
+										<a href="#"><img src="img/img_main_tab1_5.jpg" alt="항공정비 고교위탁"></a>
+									</li>
+									<li class="precess_list">
+										<a href="#"><img src="img/img_main_tab1_6.jpg" alt="전문학사 취득하기"></a>
+									</li>
+									<li class="precess_list">
+										<a href="#"><img src="img/img_main_tab1_7.jpg" alt="직업체험"></a>
+									</li>
+									<li class="precess_list">
+										<a href="#"><img src="img/img_main_tab1_8.jpg" alt="항공서비스과 고교위탁"></a>
+									</li>
+								</ul>
+								<a href="#" class="btn_more sp_after">MORE VIEW</a>
+							</div>
+						</div>
+						<div class="tab_content tab_content2">
+							<h3 class="main_title">항공정비전공</h3>
+							<div class="nav_tab_wrap">
+								<ul class="nav_tab">
+									<li class="nav_list"><a href="#" class="btn_tab">과정소개</a></li>
+									<li class="nav_list active"><a href="#" class="btn_tab">항공정비전공</a></li>
+									<li class="nav_list"><a href="#" class="btn_tab">학교소식</a></li>
+									<li class="nav_list"><a href="#" class="btn_tab">시설안내</a></li>
+								</ul>
+							</div>
+							<div class="flight_repair_wrap">
+								<ul class="notice_list_wrap">
+									<li class="notice_list notice_list1">
+										<span class="blind">항공정비 전공안내</span>
+										<span class="notice_tab">
+											<a href="#" class="btn_notice">학점은행제</a>
+											<a href="#" class="btn_notice">진로로드맵</a>
+										</span>
+									</li>
+									<li class="notice_list notice_list2">
+										<span class="blind">에이스 항공정비 스페셜</span>
+										<a href="#" class="btn_regist sp">온라인 원서접수</a>
+									</li>
+									<li class="notice_list notice_list3">
+										<a href="#">
+											<img src="img/img_main_tab2_3.jpg" alt="교수님 인터뷰">
+										</a>
+									</li>
+									<li class="notice_list notice_list4">
+										<a href="#">
+											<img src="img/img_main_tab2_4.jpg" alt="입시자료 요청하기">
+										</a>
+									</li>
+									<li class="notice_list notice_list5">
+										<a href="#">
+											<img src="img/img_main_tab2_5.jpg" alt="선생님 인터뷰">
+										</a>
+									</li>
+									<li class="notice_list notice_list6">
+										<a href="#">
+											<img src="img/img_main_tab2_6.jpg" alt="예비위탁이란?">
+										</a>
+									</li>
+									<li class="notice_list notice_list7">
+										<span class="blind">에이스 고교위탁과정 스페셜</span>
+									</li>
+									<li class="notice_list notice_list8">
+										<span class="blind">고교위탁안내</span>
+										<span class="notice_tab">
+											<a href="#" class="btn_notice">고교위탁과정</a>
+											<a href="#" class="btn_notice">진로로드맵</a>
+										</span>
+										<a href="#" class="btn_regist sp">온라인 원서접수</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="tab_content tab_content3">
+							<h3 class="main_title">학교소식</h3>
+							<div class="nav_tab_wrap">
+								<ul class="nav_tab">
+									<li class="nav_list"><a href="#" class="btn_tab">과정소개</a></li>
+									<li class="nav_list"><a href="#" class="btn_tab">항공정비전공</a></li>
+									<li class="nav_list active"><a href="#" class="btn_tab">학교소식</a></li>
+									<li class="nav_list"><a href="#" class="btn_tab">시설안내</a></li>
+								</ul>
+							</div>
+							<div class="main_board_wrap">
+								<div class="board_box">
+									<h4 class="board_title">공지사항</h4>
+									<ul class="board_list_wrap">
+										<li class="board_list">
+											<a href="#" class="btn_board">[에이스항공직업전문학교] 15학번 위탁생[에이스항공직업전문학교] 15학번 위탁생[에이스항공직업전문학교] 15학번 위탁생</a>
+											<span class="date">2017-12-12</span>
+										</li>
+										<li class="board_list">
+											<a href="#" class="btn_board">[에이스항공직업전문학교] 15학번 위탁생</a>
+											<span class="date">2017-12-12</span>
+										</li>
+										<li class="board_list">
+											<a href="#" class="btn_board">[에이스항공직업전문학교] 15학번 위탁생[에이스항공직업전문학교] 15학번 위탁생</a>
+											<span class="date">2017-12-12</span>
+										</li>
+										<li class="board_list">
+											<a href="#" class="btn_board">[에이스항공직업전문학교] 15학번 위탁생</a>
+											<span class="date">2017-12-12</span>
+										</li>
+										<li class="board_list">
+											<a href="#" class="btn_board">[에이스항공직업전문학교] 15학번 위탁생</a>
+											<span class="date">2017-12-12</span>
+										</li>
+									</ul>
+									<a href="#" class="btn_more">+ more</a>
+								</div>
+								<div class="board_box">
+									<h4 class="board_title">체험학습</h4>
+									<ul class="board_list_wrap">
+										<li class="board_list">
+											<a href="#" class="btn_board">[에이스항공직업전문학교] 15학번 위탁생[에이스항공직업전문학교] 15학번 위탁생[에이스항공직업전문학교] 15학번 위탁생</a>
+											<span class="date">2017-12-12</span>
+										</li>
+										<li class="board_list">
+											<a href="#" class="btn_board">[에이스항공직업전문학교] 15학번 위탁생</a>
+											<span class="date">2017-12-12</span>
+										</li>
+										<li class="board_list">
+											<a href="#" class="btn_board">[에이스항공직업전문학교] 15학번 위탁생[에이스항공직업전문학교] 15학번 위탁생</a>
+											<span class="date">2017-12-12</span>
+										</li>
+										<li class="board_list">
+											<a href="#" class="btn_board">[에이스항공직업전문학교] 15학번 위탁생</a>
+											<span class="date">2017-12-12</span>
+										</li>
+										<li class="board_list">
+											<a href="#" class="btn_board">[에이스항공직업전문학교] 15학번 위탁생</a>
+											<span class="date">2017-12-12</span>
+										</li>
+									</ul>
+									<a href="#" class="btn_more">+ more</a>
+								</div>
+								<div class="board_box">
+									<h4 class="board_title">채용정보</h4>
+									<ul class="board_list_wrap">
+										<li class="board_list">
+											<a href="#" class="btn_board">[에이스항공직업전문학교] 15학번 위탁생[에이스항공직업전문학교] 15학번 위탁생[에이스항공직업전문학교] 15학번 위탁생</a>
+											<span class="date">2017-12-12</span>
+										</li>
+										<li class="board_list">
+											<a href="#" class="btn_board">[에이스항공직업전문학교] 15학번 위탁생</a>
+											<span class="date">2017-12-12</span>
+										</li>
+										<li class="board_list">
+											<a href="#" class="btn_board">[에이스항공직업전문학교] 15학번 위탁생[에이스항공직업전문학교] 15학번 위탁생</a>
+											<span class="date">2017-12-12</span>
+										</li>
+										<li class="board_list">
+											<a href="#" class="btn_board">[에이스항공직업전문학교] 15학번 위탁생</a>
+											<span class="date">2017-12-12</span>
+										</li>
+										<li class="board_list">
+											<a href="#" class="btn_board">[에이스항공직업전문학교] 15학번 위탁생</a>
+											<span class="date">2017-12-12</span>
+										</li>
+									</ul>
+									<a href="#" class="btn_more">+ more</a>
+								</div>
+							</div>
+						</div>
+						<div class="tab_content tab_content4">
+							<h3 class="main_title">시설안내</h3>
+							<div class="nav_tab_wrap">
+								<ul class="nav_tab">
+									<li class="nav_list"><a href="#" class="btn_tab">과정소개</a></li>
+									<li class="nav_list"><a href="#" class="btn_tab">항공정비전공</a></li>
+									<li class="nav_list"><a href="#" class="btn_tab">학교소식</a></li>
+									<li class="nav_list active"><a href="#" class="btn_tab">시설안내</a></li>
+								</ul>
+							</div>
+							<div class="image_viewer_wrap">
+								<div class="detail_image">
+									<a href="#" class="btn_prev sp">이전 이미지</a>
+									<ul class="detail_image_list">
+										<li><img src="https://dummyimage.com/1200x658/adadad/fff.jpg&text=img1" alt=""></li>
+										<li><img src="https://dummyimage.com/1200x658/adadad/fff.jpg&text=img2" alt=""></li>
+										<li><img src="https://dummyimage.com/1200x658/adadad/fff.jpg&text=img3" alt=""></li>
+										<li><img src="https://dummyimage.com/1200x658/adadad/fff.jpg&text=img4" alt=""></li>
+										<li><img src="https://dummyimage.com/1200x658/adadad/fff.jpg&text=img5" alt=""></li>
+										<li><img src="https://dummyimage.com/1200x658/adadad/fff.jpg&text=img6" alt=""></li>
+										<li><img src="https://dummyimage.com/1200x658/adadad/fff.jpg&text=img7" alt=""></li>
+									</ul>
+									<a href="#" class="btn_next sp">다음 이미지</a>
+								</div>
+								<div class="thumb_image">
+									<ul class="image_list_wrap">
+										<li class="image_list active">
+											<a href="#" class="btn_image">
+												<img src="https://dummyimage.com/176x96/adadad/fff.jpg&text=img1" alt="">
+											</a>
+										</li>
+										<li class="image_list">
+											<a href="#" class="btn_image">
+												<img src="https://dummyimage.com/176x96/adadad/fff.jpg&text=img2" alt="">
+											</a>
+										</li>
+										<li class="image_list">
+											<a href="#" class="btn_image">
+												<img src="https://dummyimage.com/176x96/adadad/fff.jpg&text=img3" alt="">
+											</a>
+										</li>
+										<li class="image_list">
+											<a href="#" class="btn_image">
+												<img src="https://dummyimage.com/176x96/adadad/fff.jpg&text=img4" alt="">
+											</a>
+										</li>
+										<li class="image_list">
+											<a href="#" class="btn_image">
+												<img src="https://dummyimage.com/176x96/adadad/fff.jpg&text=img5" alt="">
+											</a>
+										</li>
+										<li class="image_list">
+											<a href="#" class="btn_image">
+												<img src="https://dummyimage.com/176x96/adadad/fff.jpg&text=img6" alt="">
+											</a>
+										</li>
+										<li class="image_list">
+											<a href="#" class="btn_image">
+												<img src="https://dummyimage.com/176x96/adadad/fff.jpg&text=img7" alt="">
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="senior_story">
+						<h3 class="main_title">선배이야기</h3>
+						<a href="#" class="btn_review">
+							<img src="img/img_main_ace.jpg" alt="에이스 선배들 후기">
+						</a>
+						<ul class="story_list_wrap"><!-- [D] 11, 17 번째 li에 "blank_right", 12, 18 번째 li에 "blank_left" 클래스 넣어주세요 -->
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list blank_right">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list blank_left">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list blank_right">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list blank_left">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+							<li class="story_list">
+								<a href="#" class="btn_story">
+									<img src="https://dummyimage.com/150x157/adadad/fff.jpg" alt="">
+									<span class="senior_info">
+										<span class="name">홍*동</span>
+										<span class="grade">16학년 위탁생</span>
+										<span class="major">항공관광과</span>
+									</span>
+								</a>
+							</li>
+						</ul>
+						<a href="#" class="btn_more sp_before">+ more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer_wrap">
+		<div id="footer">
+			<div class="top_info">
+				<ul class="nav_footer">
+					<li class="nav_list nav_list1"><a href="#" class="sp">자격증일정</a></li>
+					<li class="nav_list nav_list2"><a href="#" class="sp">학교시설</a></li>
+					<li class="nav_list nav_list3"><a href="#" class="sp">협약기관소개</a></li>
+					<li class="nav_list nav_list4"><a href="#" class="sp">항공분야 동향</a></li>
+					<li class="nav_list nav_list5"><a href="#" class="sp">오시는길</a></li>
+					<li class="nav_list nav_list6"><a href="#" class="sp">내일배움카드제</a></li>
+				</ul>
+			</div>
+			<div class="bottom_info">
+				<div class="footer_notice">
+					<p class="text"><span class="tit">입학상담</span> 평일 09:00 ~ 18:00 / 주말 09:00 ~ 14:00</p>
+					<span class="tel_number">032.715.7476</span>
+				</div>
+				<ul class="footer_info">
+					<li><span class="blind">상호명 : </span>에이스항공직업전문학교<br>(구)인천아세아항공직업전문학교</li>
+					<li><span class="tit">대표자 : </span>김정훈<br></li>
+					<li><span class="tit">사업자등록번호 : </span>779-87-00830</li>
+					<li class="info_address"><span class="tit">주소 : </span>인천광역시 부평구 경원대로 1395, 12,13,14층</li>
+					<li class="info_tel"><span class="tit">TEL:</span>032-715-7476</li>
+					<li class="info_fax"><span class="tit">FAX:</span>032-715-7479</li>
+				</ul>
+				<p class="copyright">COPYRIGHT (C) Best Friend Culture. ALL RIGHT RESERVED.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="style/js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="style/js/jquery.slides.min.js"></script>
+<script type="text/javascript" src="style/js/style.js"></script>
+<script>
+    $(function() {
+		$('#slides').slidesjs({
+			width: 940,
+			height: 528,
+			play: {
+				active: true,
+				auto: true,
+				interval: 4000,
+				effect: "slide"
+			},
+			navigation: {
+				effect: "slide"
+			},
+			pagination: {
+				effect: "slide"
+			}
+		});
+    });
+</script>
+</body>
+</html>

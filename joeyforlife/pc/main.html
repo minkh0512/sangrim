@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=984">
+<title>JOEYFORLIFE</title>
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&amp;subset=korean" rel="stylesheet">
+<link rel="stylesheet" href="style/css/reset.css">
+<link rel="stylesheet" href="style/css/swiper.min.css">
+<link rel="stylesheet" href="style/css/style.css">
+</head>
+<body>
+<div id="wrap">
+	<div class="header_wrap">
+		<div class="header_top_nav">
+			<ul>
+				<li class="active"><a href="#">KOREA</a></li>
+				<li><a href="#">ENG</a></li>
+				<li class="nav_search">
+					<a href="#"><span class="sp">검색</span></a>
+				</li>
+				<li class="nav_sitemap">
+					<a href="#"><span class="sp">사이트맵</span></a>
+				</li>
+			</ul>
+		</div>
+		<div id="header">
+			<div class="header_inner clear_fix">
+				<h1 class="logo"><a href="#" class="sp">조이포라이프</a></h1>
+				<div class="gnb_wrap">
+					<ul id="gnb">
+						<li>
+							<a href="#" class="btn_nav"><span>JOEYFORLIFE</span></a>
+							<div id="gnb_menu1" class="gnb_menu sp_before">
+								<dl>
+									<dt><a href="#" class="sp_after">조이포라이프</a></dt>
+									<dd class="active"><a href="#">· 회사소개</a></dd>
+									<dd><a href="#">· 비전</a></dd>
+									<dd><a href="#">· 연혁</a></dd>
+									<dd><a href="#">· 인증</a></dd>
+									<dd><a href="#">· 납부실적</a></dd>
+									<dd><a href="#">· 오시는 길</a></dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<a href="#" class="btn_nav"><span>PRODUCT</span></a>
+							<div id="gnb_menu2" class="gnb_menu sp_before">
+								<strong class="tit">PRODUCT <a href="#" class="btn_all sp_after">전제품보기</a></strong>
+								<dl>
+									<dt><a href="#" class="sp_after">샤워헤드</a></dt>
+									<dd><a href="#">· LUMOS 시리즈</a></dd>
+									<dd>
+										<a href="#">· 럭셔리 스타일</a>
+										<ul>
+											<li><a href="#">샤인 SHINE</a></li>
+											<li><a href="#">럭스 LUX</a></li>
+											<li><a href="#">다이나믹 DYNAMIC</a></li>
+											<li><a href="#">돌체 DOLCE</a></li>
+											<li><a href="#">라미 LAMI</a></li>
+											<li><a href="#">볼드 BOLD</a></li>
+											<li><a href="#">에델배드 EDELBAD</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a href="#">· 프리미엄 스타일</a>
+										<ul>
+											<li><a href="#">매립형 BUILD-IN</a></li>
+											<li><a href="#">매립형 LED BUILD-IN LED</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a href="#">· LOSH 스리즈</a>
+										<ul>
+											<li><a href="#">5T BASIC</a></li>
+											<li><a href="#">5T SPECIAL</a></li>
+											<li><a href="#">7T BASIC</a></li>
+											<li><a href="#">7T SPECIAL</a></li>
+										</ul>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="#" class="sp_after">수전</a></dt>
+									<dd>
+										<a href="#">· 디터치</a>
+										<ul>
+											<li><a href="#">1기능</a></li>
+											<li><a href="#">2기능</a></li>
+											<li><a href="#">3기능</a></li>
+										</ul>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="#" class="sp_after">ACCESSORISE</a></dt>
+									<dd>
+										<a href="#">· 핸드샤워</a>
+										<ul>
+											<li><a href="#">MAZE</a></li>
+											<li><a href="#">BASIC HANDSHOWER</a></li>
+										</ul>
+									</dd>
+									<dd><a href="#">· 슬라이딩 바</a></dd>
+									<dd>
+										<a href="#">· 샤워암</a>
+										<ul>
+											<li><a href="#">벽부형</a></li>
+											<li><a href="#">전장형</a></li>
+										</ul>
+									</dd>
+									<dd><a href="#">· 샤워유니온</a></dd>
+									<dd><a href="#">· 메탈호스</a></dd>
+								</dl>
+								<dl>
+									<dt><a href="#" class="sp_after">제품 구성</a></dt>
+									<dd class="blind">상품이 없습니다.</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<a href="#" class="btn_nav"><span>SERVICE</span></a>
+							<div id="gnb_menu3" class="gnb_menu sp_before">
+								<dl>
+									<dt><a href="#" class="sp_after">조이포라이프</a></dt>
+									<dd class="active"><a href="#">· 회사소개</a></dd>
+									<dd><a href="#">· 비전</a></dd>
+								</dl>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="search_box_wrap">
+			<div class="search_box">
+				<input type="text" title="검색어 입력" />
+				<button type="submit" class="btn_search">검색</button>
+				<button type="button" class="btn_close"><span class="sp">닫기</span></button>
+			</div>
+		</div>
+	</div>
+	<div class="layer_wrap layer_sitemap">
+		<div class="sitemap_wrap">
+			<button class="btn_close sp">닫기</button>
+			<ul class="sitemap_list clear_fix">
+				<li class="active">
+					<dl>
+						<dt class="sp_after">JOEYFORLIFE</dt>
+						<dd class="active"><a href="#">· <span>회사소개</span></a></dd>
+						<dd><a href="#">· <span>비전</span></a></dd>
+						<dd><a href="#">· <span>연혁</span></a></dd>
+						<dd><a href="#">· <span>인증</span></a></dd>
+						<dd><a href="#">· <span>납부 실적</span></a></dd>
+						<dd><a href="#">· <span>오시는 길</span></a></dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt class="sp_after">PRODUCT</dt>
+						<dd>
+							<a href="#">· <span>샤워헤드</span></a>
+							<ul>
+								<li><a href="#">· <span>LUMOS 시리즈</span></a></li>
+								<li><a href="#">· <span>럭셔리 스타일</span></a></li>
+								<li><a href="#">· <span>프리미엄 스타일</span></a></li>
+								<li><a href="#">· <span>LOSH 시리즈</span></a></li>
+							</ul>
+						</dd>
+						<dd>
+							<a href="#">· <span>수전</span></a>
+							<ul>
+								<li><a href="#">· <span>디터치</span></a></li>
+							</ul>
+						</dd>
+						<dd>
+							<a href="#">· <span>샤워프로그램</span></a>
+							<ul>
+								<li><a href="#">· <span>핸드샤워</span></a></li>
+								<li><a href="#">· <span>슬라이딩 바</span></a></li>
+								<li><a href="#">· <span>샤워암</span></a></li>
+								<li><a href="#">· <span>샤워유니온</span></a></li>
+								<li><a href="#">· <span>메탈호스</span></a></li>
+							</ul>
+						</dd>
+						<dd><a href="#">· <span>제품 구성</span></a></dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt class="sp_after">SERVICE</dt>
+						<dd><a href="#">· <span>자주하는 질문</span></a></dd>
+						<dd><a href="#">· <span>전국 대리점</span></a></dd>
+					</dl>
+				</li>
+				<li class="info">
+					<dl class="blind">
+						<dt>국내 전화</dt>
+						<dd>031-319-0613</dd>
+						<dt>해외 전화</dt>
+						<dd>070-5038-4799</dd>
+						<dt>메일</dt>
+						<dd>jskim@joeyforlife</dd>
+					</dl>
+				</li>
+			</ul>
+		</div>
+		<div class="dimmed"></div>
+	</div>
+	<div class="content_wrap">
+		<div id="content">
+			<div class="main">
+				<div class="slide_wrap">
+					<div class="slide_area">
+						<div id="slides">
+							<div class="slide_item slide_item1">
+								<div class="text_box">
+									<p class="tit">Better life inspired by water</p>
+									<span class="cont">Joeyforlife open up new trends for shower and shower system through last 5 years of an <br>intensive work where we share the idea of oriental aspectstand western aspects..</span>
+									<a href="#" class="btn_detail"><img src="img/img_btn_detail.png" alt="자세히보기"></a>
+								</div>
+							</div>
+							<div class="slide_item slide_item2">
+								<div class="text_box">
+									<p class="tit">Better life inspired by water</p>
+									<span class="cont">Joeyforlife open up new trends for shower and shower system through last 5 years of an <br>intensive work where we share the idea of oriental aspectstand western aspects..</span>
+									<a href="#" class="btn_detail"><img src="img/img_btn_detail.png" alt="자세히보기"></a>
+								</div>
+							</div>
+							<div class="slide_item slide_item3">
+								<div class="text_box">
+									<p class="tit">Better life inspired by water</p>
+									<span class="cont">Joeyforlife open up new trends for shower and shower system through last 5 years of an <br>intensive work where we share the idea of oriental aspectstand western aspects..</span>
+									<a href="#" class="btn_detail"><img src="img/img_btn_detail.png" alt="자세히보기"></a>
+								</div>
+							</div>
+							<div class="slide_item slide_item4">
+								<div class="text_box">
+									<p class="tit">Better life inspired by water</p>
+									<span class="cont">Joeyforlife open up new trends for shower and shower system through last 5 years of an <br>intensive work where we share the idea of oriental aspectstand western aspects..</span>
+									<a href="#" class="btn_detail"><img src="img/img_btn_detail.png" alt="자세히보기"></a>
+								</div>
+							</div>
+							<div class="slide_item slide_item5">
+								<div class="text_box">
+									<p class="tit">Better life inspired by water</p>
+									<span class="cont">Joeyforlife open up new trends for shower and shower system through last 5 years of an <br>intensive work where we share the idea of oriental aspectstand western aspects..</span>
+									<a href="#" class="btn_detail"><img src="img/img_btn_detail.png" alt="자세히보기"></a>
+								</div>
+							</div>
+							<div class="slide_item slide_item6">
+								<div class="text_box">
+									<p class="tit">Better life inspired by water</p>
+									<span class="cont">Joeyforlife open up new trends for shower and shower system through last 5 years of an <br>intensive work where we share the idea of oriental aspectstand western aspects..</span>
+									<a href="#" class="btn_detail"><img src="img/img_btn_detail.png" alt="자세히보기"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item_list_wrap">
+					<ul>
+						<li>
+							<a href="#">
+								<img src="img/main_item1.jpg" alt="">
+								<span class="tit">LUMOS LAUNCHING</span>
+								<span class="cont">최신 디자인의 정면에서 조이포라이프, 풀 LED 헤드샤워</span>
+								<span class="date sp_before">2018.03.03</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/main_item2.jpg" alt="">
+								<span class="tit">LUMOS LAUNCHING</span>
+								<span class="cont">최신 디자인의 정면에서 조이포라이프, 풀 LED 헤드샤워</span>
+								<span class="date sp_before">2018.03.03</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/main_item3.jpg" alt="">
+								<span class="tit">LUMOS LAUNCHING</span>
+								<span class="cont">최신 디자인의 정면에서 조이포라이프, 풀 LED 헤드샤워</span>
+								<span class="date sp_before">2018.03.03</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/main_item4.jpg" alt="">
+								<span class="tit">LUMOS LAUNCHING</span>
+								<span class="cont">최신 디자인의 정면에서 조이포라이프, 풀 LED 헤드샤워</span>
+								<span class="date sp_before">2018.03.03</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/main_item5.jpg" alt="">
+								<span class="tit">LUMOS LAUNCHING</span>
+								<span class="cont">최신 디자인의 정면에서 조이포라이프, 풀 LED 헤드샤워</span>
+								<span class="date sp_before">2018.03.03</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/main_item6.jpg" alt="">
+								<span class="tit">LUMOS LAUNCHING</span>
+								<span class="cont">최신 디자인의 정면에서 조이포라이프, 풀 LED 헤드샤워</span>
+								<span class="date sp_before">2018.03.03</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a href="#" class="btn_top sp fixed">맨 위로</a>
+	<div class="footer_wrap">
+		<div id="footer">
+			<div class="top_info">
+				<div class="footer_nav_wrap">
+					<dl>
+						<dt>BRAND AGENT</dt>
+						<dd><a href="#" class="sp_after">KOHLER</a></dd>
+						<dd><a href="#" class="sp_after">PAFFONI</a></dd>
+						<dd><a href="#" class="sp_after">KALDEWEI</a></dd>
+						<dd><a href="#" class="sp_after">ATLAS CONCORDE</a></dd>
+					</dl>
+					<dl>
+						<dt>SNS</dt>
+						<dd><a href="#" class="sp_after">BLOG</a></dd>
+						<dd><a href="#" class="sp_after">INSTAGRAM</a></dd>
+						<dd><a href="#" class="sp_after">FACEBOOK</a></dd>
+						<dd><a href="#" class="sp_after">TWITTER</a></dd>
+					</dl>
+					<dl>
+						<dt>MAP</dt>
+						<dd><a href="#">화성 본사 / 오시는 길</a></dd>
+						<dd><a href="#">안산 지점 / 오시는 길</a></dd>
+						<dd><a href="#">서울 지점 / 오시는 길</a></dd>
+					</dl>
+					<dl>
+						<dt>CONTACT US</dt>
+						<dd>
+							<span class="tit">국내</span>
+							<span class="cont sp_before phone">031-319-0613</span>
+						</dd>
+						<dd>
+							<span class="tit">해외</span>
+							<span class="cont sp_before phone">070-5038-4799</span><br>
+							<span class="cont sp_before mail">jskim@joeyforlife.com</span>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="bottom_info">
+				<dl>
+					<dt>회사명 :</dt>
+					<dd>(주)조이포라이프 <span class="bar">|</span></dd>
+					<dt>대표이사 :</dt>
+					<dd>하기호 <span class="bar">|</span></dd>
+					<dt>사업자등록증번호 :</dt>
+					<dd>119-00-12121 <span class="bar">|</span></dd>
+					<dt>통신판매업신고번호 :</dt>
+					<dd>서울 서초구-20180303-1호</dd>
+				</dl>
+				<dl>
+					<dt>화성 본사 :</dt>
+					<dd>경기도 화성시 장안면 장안로 480-192 <span class="bar">|</span></dd>
+					<dt>안산 지점(제2공장) :</dt>
+					<dd>경기도 안산시 단원구 점단로 245-54 2층 <span class="bar">|</span></dd>
+					<dt>서울 지점 :</dt>
+					<dd>서울특별시 서초구 동산로6길 16 (양재동) 402호</dd>
+				</dl>
+			</div>
+			<p class="copyright">copyright(c)  joeyforlife CO.,LTD.  All Rights Reserved.</p>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="style/js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="style/js/jquery.slides.min.js"></script>
+<script type="text/javascript" src="style/js/swiper.js"></script>
+<script type="text/javascript" src="style/js/style.js"></script>
+<script>
+    $(function() {
+		$('#slides').slidesjs({
+			width: 940,
+			height: 528,
+			play: {
+				active: true,
+				auto: true,
+				interval: 4000,
+				effect: "slide"
+			},
+			navigation: {
+				effect: "slide"
+			},
+			pagination: {
+				effect: "slide"
+			}
+		});
+    });
+</script>
+</body>
+</html>
