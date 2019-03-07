@@ -3,11 +3,44 @@
 /* common */
 body{min-width:320px;font-weight:500;color:#797979}
 input{margin:0;padding:0;border:0 none;}
+.for-a11y{position: absolute;width: 1px;height: 1px;margin: -1px;padding: 0;border: 0;clip: rect(0 0 0 0);overflow: hidden;text-indent: -5000em;}
 .sp,
 .sp_before:before,
 .sp_after:after{display:inline-block;overflow:hidden;background:url(../../img/sprite.png) no-repeat;background-size:250px auto;text-indent:-999em}
 .sp_before:before,
 .sp_after:after{content:'';display:block;position:absolute}
+
+.header_wrap{}
+.header_top{position:relative;height:65px;border-bottom:5px solid #adadad;background:#2b2b2b;text-align:right}
+.header_top .logo{position:absolute;top:0;left:0;width:153px;height:65px;background:url(../../img/logo.jpg) no-repeat;background-size:100% auto}
+.header_top .logo .btn_logo{display:block;width:153px;height:65px}
+.header_top .login_list{padding:23px 7px 0 0;font-size:0}
+.header_top .login_list li{display:inline-block;padding-right:8px}
+.header_top .login_list a{display:block;width:65px;height:23px;border:1px solid #ff3848;border-radius:23px;font-size:11px;font-weight:bold;color:#fff;text-align:center;line-height:23px;box-sizing: border-box}
+.header_top .login_list .list_login a{background:#ff3848}
+.header_top .logout{position:relative;z-index:1;padding:23px 7px 0 0;font-size:0}
+.header_top .logout p{display:inline-block;font-size:10px;font-weight:bold;color:#707070;line-height:23px}
+.header_top .logout .name{color:#c9c9c9}
+.header_top .logout .btn_logout{display:inline-block;width:65px;height:23px;margin-left:4px;border:1px solid #ff3848;border-radius:23px;background:#ff3848;font-size:11px;font-weight:bold;color:#fff;text-align:center;line-height:23px;box-sizing: border-box}
+.header_bottom{height:50px}
+.header_bottom .gnb{font-size:0;text-align:center}
+.header_bottom .gnb li{display:inline-block;padding:0 8px}
+.header_bottom .gnb li a{display:block;height:50px;font-size:12px;font-weight:bold;color:#848484;line-height:50px;letter-spacing:-1px}
+.header_bottom .gnb li.active a{color:#fd4756}
+#footer{height:99px;background:#2b2b2b url(../../img/footer.jpg) no-repeat 50% 0;background-size:auto 100%}
+#footer .fnb1{width:232px;margin:0 auto;padding:19px 0 10px;font-size:0}
+#footer .fnb1 li{display:inline-block}
+#footer .fnb1 .fnb1_1{width:36px;margin-right:22px;margin-left:-7px}
+#footer .fnb1 .fnb1_2{width:63px;margin-right:21px}
+#footer .fnb1 .fnb1_3{width:35px;margin-right:21px}
+#footer .fnb1 .fnb1_4{width:35px}
+#footer .fnb1 a{display:block;height:10px}
+#footer .fnb2{width:150px;margin:0 auto;font-size:0}
+#footer .fnb2 li{display:inline-block}
+#footer .fnb2 .fnb2_1{width:42px;margin-left:-6px}
+#footer .fnb2 .fnb2_2{width:69px}
+#footer .fnb2 .fnb2_3{width:39px}
+#footer .fnb2 a{display:block;height:9px}
 
 .slide_wrap{position: relative}
 .slide_wrap .swiper-slide img{width:100%}
@@ -31,7 +64,8 @@ input{margin:0;padding:0;border:0 none;}
 .form_box .btn_find,
 .form_box .btn_next{width:210px;height:29px;margin:0 auto;color:#fff;line-height: 29px;background-color:#ff394a;border-radius:30px}
 
-.sub_login{text-align:center}
+.sub_login{position:relative;padding:0 0 30px;text-align:center}
+.sub_login:before{content:"";display:block;position:absolute;top:0;right:15px;left:15px;height:1px;background:#ff3848}
 .sub_login .tit{padding:25px 0}
 .sub_login .tit img{width:50px}
 .sub_login .form_box{padding:0 17.1875%}
@@ -40,14 +74,16 @@ input{margin:0;padding:0;border:0 none;}
 .sub_login .btn_list li + li:before{content:'';display:inline-block;width:1px;height:8px;margin:0 3px;background-color:#bebebe;vertical-align: middle;}
 .sub_login .btn_list li a{font-size:12px;color:#848484}
 
-.sub_find{text-align:center}
+.sub_find{position:relative;padding:0 0 30px;text-align:center}
+.sub_find:before{content:"";display:block;position:absolute;top:0;right:15px;left:15px;height:1px;background:#ff3848}
 .sub_find .tit{padding:25px 0}
 .sub_find .tit img{width:84px}
 .sub_find02 .tit img{width:99px}
 .sub_find .form_box{padding:0 17.1875%}
 .sub_find .notice{margin:25px 0 20px;letter-spacing:-1px}
 
-.sub_join{text-align:center;padding-bottom:35px}
+.sub_join{position:relative;text-align:center;padding-bottom:35px}
+.sub_join:before{content:"";display:block;position:absolute;top:0;right:15px;left:15px;height:1px;background:#ff3848}
 .sub_join .join_tit{padding:25px 0}
 .sub_join .join_tit img{width:67px}
 .sub_join .join_step{padding:0 4.6895%;font-size:0}
@@ -63,21 +99,21 @@ input{margin:0;padding:0;border:0 none;}
 .sub_join02 .join-form_tit{margin:0 4.6895%;padding-bottom:5px;text-align:left;font-size:13px;color:#2b2b2b;border-bottom:2px solid #2b2b2b}
 .sub_join02 .join-form_tit.essential:after{content:'';display:inline-block;width:3px;height:3px;margin-left:2px;border-radius:2px;background-color: #ff3848;vertical-align:top}
 .sub_join02 .join-form_list{overflow:hidden;margin:0 4.6895%;padding:10px 0 30px;text-align:left}
-.sub_join02 .join-form_list dt{float:left;width:25%;padding-top:3px;}
+.sub_join02 .join-form_list dt{float:left;width:25%;padding-top:3px;letter-spacing:-1px}
 .sub_join02 .join-form_list dd{position:relative;padding-left:25%;margin-bottom:5px}
 .sub_join02 .join-form_list dd input{height:25px;font-size:12px;border:1px solid #d4d4d4;box-sizing:border-box;text-indent:5px}
 .sub_join02 .join-form_list dd input::placeholder{letter-spacing:-1px}
 .sub_join02 .join-form_list dd .input_box01{width:100%}
 .sub_join02 .join-form_list dd .input_box03{float:left;width:76.3%}
 .sub_join02 .join-form_list dd .input_box04{float:left;width:30%}
-.sub_join02 .join-form_list dd .input_box05{width: 47.1%}
+.sub_join02 .join-form_list dd .input_box05{width: 46.8%}
 .sub_join02 .join-form_list dd .align_box{overflow: hidden;}
 .sub_join02 .join-form_list dd .align_box .input_box02{float:left;width:23.4%}
 .sub_join02 .join-form_list dd .align_box .bar{float:left;width:3%;text-align:center;line-height:25px;}
 .sub_join02 .join-form_list dd .align_box .bar-a{float:left;width:5.5%;text-align:center;line-height:25px;}
 .sub_join02 .join-form_list dd .align_box .select_box01{width:33%;height:25px;margin-left:1.5%;border:1px solid #d4d4d4;box-sizing:border-box;background-color: #fff}
 .sub_join02 .join-form_list dd .align_box .select_box02{width:25%;height:25px;border:1px solid #d4d4d4;box-sizing:border-box;background-color: #fff}
-.sub_join02 .join-form_list dd .btn{float:left;width:23.6%;height:25px;background-color: #ff3848;line-height:25px;color:#fff;text-align:center;border-radius:0}
+.sub_join02 .join-form_list dd .btn{float:left;width:22.6%;height:25px;margin-left:1%;background-color: #ff3848;line-height:25px;color:#fff;text-align:center;border-radius:0;letter-spacing:-1px}
 .sub_join02 .join-form_list dd .notice{margin:5px 0 0;font-size:12px;text-align:left}
 .select_gender{overflow: hidden;}
 .select_gender li{position:relative;float:left;width:50%;height:25px;}
