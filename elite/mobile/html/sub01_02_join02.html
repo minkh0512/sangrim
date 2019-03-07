@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>엘리트 모의고사</title>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="../style/css/reset.css">
+	<link rel="stylesheet" href="../style/css/style.css">
+	<link rel="stylesheet" href="../style/css/swiper.min.css">
+	<script src="../style/js/jquery.min.js"></script>
+	<script src="../style/js/swiper.min.js"></script>
+</head>
+<body>
+<div id="wrap">
+	<div id="container">
+		<div class="sub_join sub_join02">
+			<h2 class="join_tit"><img src="../img/sub_tit_join.png" alt="회원가입"></h2>
+			<ol class="join_step">
+				<li>이용약관 동의</li>
+				<li class="active">가입정보 입력</li>
+				<li>회원가입 완료</li>
+			</ol>
+			<p class="notice">엘리트모의평가연구소의 가입을 진심으로 환영합니다.<br/>여러분에게 원활한 서비스와 더 나은 학습법을 안내하기 위해<br/>꼭 필요한 절차이오니 신중하게 작성해 주세요.</p>
+			<div class="form_box">
+				<form>
+					<h3 class="join-form_tit essential">필수 정보 입력</h3>
+					<dl class="join-form_list">
+						<dt>이름</dt>
+						<dd><input type="text" title="이름을 입력해주세요" placeholder="이름을 입력해주세요" class="input_box01"></dd>
+						<dt>생년월일</dt>
+						<dd><input type="text" title="생년월일 6자리를 입력해주세요" placeholder="생년월일 6자리를 입력해주세요 ex)010326" class="input_box01"></dd>
+						<dt>휴대폰 번호</dt>
+						<dd>
+							<div class="align_box">
+								<input type="text" title="휴대전화 앞자리" class="input_box02">
+								<span class="bar">-</span>
+								<input type="text" title="휴대전화 가운데자리" class="input_box02">
+								<span class="bar">-</span>
+								<input type="text" title="휴대전화 뒷자리" class="input_box02">
+								<a href="#" class="btn btn_certify">번호 인증</a>
+							</div>
+						</dd>
+						<dt>아이디</dt>
+						<dd>
+							<div class="align_box">
+								<input type="text" title="인증번호를 입력해주세요" placeholder="인증번호를 입력해주세요" class="input_box03">
+								<a href="#" class="btn btn_certify">인증 확인</a>
+							</div>
+						</dd>
+						<dt>비밀번호</dt>
+						<dd><input type="password" title="6~20자의 영문 소문자, 숫자 조합으로 입력해주세요" placeholder="6~20자의 영문 소문자, 숫자 조합으로 입력해주세요" class="input_box01"></dd>
+						<dt>비밀번호 확인</dt>
+						<dd><input type="password" title="비밀번호를 다시 한번 입력해주세요" placeholder="비밀번호를 다시 한번 입력해주세요" class="input_box01"></dd>
+						<dt>이메일</dt>
+						<dd>
+							<div class="align_box">
+								<input type="text" title="이메일 앞자리 주소" class="input_box04">
+								<span class="bar-a">@</span>
+								<input type="text" title="이메일 뒷자리 직접입력" placeholder="직접입력" class="input_box04">
+								<select class="select_box01 select_mail">
+									<option value="naver.com">naver.com</option>
+								</select>
+							</div>
+						</dd>
+						<dt>성별</dt>
+						<dd>
+							<ul class="select_gender">
+								<li>
+									<input type="radio" id="gender_male" name="select_gender" checked="checked">
+									<label for="gender_male">남자</label>
+								</li>
+								<li>
+									<input type="radio" id="gender_female" name="select_gender">
+									<label for="gender_female">여자</label>
+								</li>
+							</ul>
+						</dd>
+						<dt>학교명</dt>
+						<dd>
+							<div class="align_box">
+								<select class="select_box02 select_grade">
+									<option value="학년">학년</option>
+								</select>
+								<select class="select_box02 select_location">
+									<option value="지역">지역</option>
+								</select>
+								<input type="text" title="자세히" class="input_box05">
+							</div>
+						</dd>
+					</dl>
+					<h3 class="join-form_tit">선택 정보 입력</h3>
+					<dl class="join-form_list">
+						<dt>주소</dt>
+						<dd>
+							<div class="align_box">
+								<input type="text" title="우편번호" placeholder="우편번호" class="input_box03">
+								<a href="#" class="btn btn_find">주소 찾기</a>
+							</div>
+						</dd>
+						<dd><input type="text" title="주소" placeholder="주소" class="input_box01"></dd>
+						<dd>
+							<input type="text" title="상세주소" placeholder="상세주소" class="input_box01">
+							<p class="notice">교재나 이벤트 혜택 발송 시 꼭 필요한 정보입니다<br>지금 등록해 두시면 추후에 이벤트, 교재 발송 등의 서비스를 편리하게 이용할 수 있습니다</p>
+						</dd>
+					</dl>
+					<input type="submit" title="회원가입 완료 하기" value="회원가입 완료 하기" alt="회원가입 완료 하기" class="btn_next">
+				</form>
+			</div>
+		</div>
+	</div>	
+</div>
+</body>
+</html>
