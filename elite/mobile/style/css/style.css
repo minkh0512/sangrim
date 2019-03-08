@@ -187,7 +187,7 @@ input{margin:0;padding:0;border:0 none;}
 .box_sub_visual .sub_tab ul{font-size:0}
 .box_sub_visual .sub_tab ul li{position:relative;display:inline-block;width:25%;height:25px;}
 .box_sub_visual .sub_tab ul li:after{content:'';position: absolute;left:0;top:0;width:100%;height:100%;background-color: #000;opacity:0.2;z-index:5;}
-.box_sub_visual .sub_tab ul li a{position:relative;display:block;width:100%;height:100%;color:#fff;font-size:13px;font-weight: bold;line-height:25px;text-align:center;z-index:10}
+.box_sub_visual .sub_tab ul li a{position:relative;display:block;width:100%;height:100%;color:#fff;font-size:11px;font-weight: 300;line-height:25px;text-align:center;z-index:10}
 .box_sub_visual .sub_tab ul li.active:after{background-color: #fff;opacity:1}
 .box_sub_visual .sub_tab ul li.active a{color:#fd4756}
 
@@ -199,40 +199,40 @@ input{margin:0;padding:0;border:0 none;}
 .sub_community .board_list{padding:0 4.6895%}
 .sub_community .board_list .table_type1{text-align:center}
 .sub_community .board_list .table_type1 table{table-layout:fixed}
-.sub_community .board_list .table_type1 th{padding:13px 0;font-size:11px;border-top:1px solid #d4d4d4;border-bottom:1px solid #919191;background-color: #fafafa;}
-.sub_community .board_list .table_type1 td{padding:13px 0;font-size:11px;border-bottom:1px solid #e8e8e8;}
-.sub_community .board_list .table_type1 .td_cont{position: relative;}
-.sub_community .board_list .table_type1 td .notice_tit{display:block;font-size:12px;text-align:left;text-overflow:ellipsis;overflow:hidden;white-space: nowrap;}
+.sub_community .board_list .table_type1 th{height:29px;font-size:11px;border-top:1px solid #d4d4d4;border-bottom:1px solid #919191;background-color: #fafafa;font-weight: normal}
+.sub_community .board_list .table_type1 td{height: 39px;font-size:10px;border-bottom:1px solid #e8e8e8;font-weight: 300;color:#2b2b2b;}
+.sub_community .board_list .table_type1 .td_cont{position: relative;font-size: 11px;font-weight:400;}
+.sub_community .board_list .table_type1 td .notice_tit{display:block;text-align:left;text-overflow:ellipsis;overflow:hidden;white-space: nowrap;}
 .sub_community .board_list .table_type1 td .sp_lock{width:9px;height:9px;background-position: -47px -12px;}
 .sub_community .board_list .table_type1 td .sp_reply{width:9px;height:9px;background-position: -58px -12px;}
 .sub_community .board_view{padding:0 4.6895%}
-.sub_community .board_view .board_view_tit{padding:6px 0 6px 6px;font-size:14px;color:#474747;border-top:1px solid #d4d4d4;border-bottom:1px solid #919191;background-color: #fafafa;}
+.sub_community .board_view .board_view_tit{padding:6px 0 6px 6px;font-size:12px;color:#474747;border-top:1px solid #d4d4d4;border-bottom:1px solid #919191;background-color: #fafafa;font-weight: 400;}
 .sub_community .board_view .write_info{padding:6px 0 6px 6px;}
-.sub_community .board_view .write_info dt{display:inline-block;font-size:11px;font-weight:bold;color: #a6a6a6;}
-.sub_community .board_view .write_info dd{display:inline-block;padding:0 20px 0 5px;font-size:11px;color: #a6a6a6;}
+.sub_community .board_view .write_info dt{display:inline-block;font-size:10px;font-weight:700;color: #a6a6a6;}
+.sub_community .board_view .write_info dd{display:inline-block;padding:0 20px 0 5px;font-size:10px;font-weight:300;color: #a6a6a6;}
 .sub_community .board_view .board_view_cont{min-height:100px;padding:15px 6px;border-top:1px solid #d4d4d4;border-bottom:1px solid #919191}
 .sub_community .board_view .board_view_cont .btn_down .sp{width:10px;height:12px;background-position: -47px -23px;vertical-align:middle}
-.sub_community .board_view .board_view_cont .btn_down .text{font-size:14px;color:#000;text-decoration:underline;font-weight:bold}
-.sub_community .board_view .board_view_cont p{padding-top:15px}
+.sub_community .board_view .board_view_cont .btn_down .text{font-size:12px;color:#000;text-decoration:underline;font-weight:300}
+.sub_community .board_view .board_view_cont p{padding-top:15px;font-size:11px;font-weight:300}
 .sub_community .board_view .board_view_list{border-bottom:1px solid #919191}
 .sub_community .board_view .board_view_list li{padding:8px 0 }
 .sub_community .board_view .board_view_list li .sp_prev,
-.sub_community .board_view .board_view_list li .sp_next{font-weight:bold;color:#a6a6a6}
+.sub_community .board_view .board_view_list li .sp_next{margin-right: 10px;font-size:10px;font-weight:700;color:#a6a6a6}
 .sub_community .board_view .board_view_list li .sp_prev::before,
 .sub_community .board_view .board_view_list li .sp_next::before{position:static;display:inline-block;width:7px;height:5px;margin-right:5px;vertical-align:middle}
 .sub_community .board_view .board_view_list li .sp_prev::before{background-position: -59px -23px}
 .sub_community .board_view .board_view_list li .sp_next::before{background-position: -59px -30px}
 .sub_community .board_view .board_view_list li .btn_prev,
-.sub_community .board_view .board_view_list li .btn_next{color:#a6a6a6}
+.sub_community .board_view .board_view_list li .btn_next{font-size:10px;color:#a6a6a6;font-weight: 300}
 .sub_community .paging{margin-top:35px;text-align:center}
 .sub_community .paging .btn_prev,
 .sub_community .paging .btn_next,
-.sub_community .paging .btn_page{display:inline-block;width:20px;padding:3px 0;color:#828282;font-weight:bold; text-align:center}
+.sub_community .paging .btn_page{display:inline-block;width:20px;height:14px;padding:3px 0;color:#828282;font-size:11px; text-align:center;line-height: 14px}
 .sub_community .paging .btn_prev.sp_after:after{position:static;display:inline-block;width:8px;height:10px;background-position:-47px 0;vertical-align: middle;}
 .sub_community .paging .btn_next.sp_after:after{position:static;display:inline-block;width:8px;height:10px;background-position:-57px 0;vertical-align: middle;}
 .sub_community .paging .btn_page.active{background-color: #ff3848;border-radius:20px;color:#fff}
 .sub_community .btn_area{margin-top:35px;text-align:center}
-.sub_community .btn_area a{display:inline-block;width:90px;height:25px;margin:0 7px;color:#fff;font-weight:bold;line-height:25px;background-color: #ff3848;border-radius:25px}
+.sub_community .btn_area a{display:inline-block;width:90px;height:25px;margin:0 7px;color:#fff;font-size:11px;font-weight:bold;line-height:25px;background-color: #ff3848;border-radius:25px}
 .sub_community .btn_area .btn_write{width:165px}
 .sub_community .btn_area .btn_list{background-color: #585858;}
 .sub_community .btn_area .btn_delete{background-color: #000;}
