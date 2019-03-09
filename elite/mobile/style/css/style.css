@@ -254,15 +254,15 @@ input{margin:0;padding:0;border:0 none;}
     background: linear-gradient(to right, #ff3848 1%,#ec386e 25%,#d138a4 50%,#b538dd 75%,#a438ff 100%)
 }
 .class_detail_wrap .tit_box{padding:25px 0;text-align:center}
-.class_detail_wrap .tit_box .tit{font-size:15px;color:#2b2b2b}
-.class_detail_wrap .tit_box .tit_cont{font-size:11px;color:#848484}
+.class_detail_wrap .tit_box .tit{font-size:15px;font-weight:700;color:#2b2b2b}
+.class_detail_wrap .tit_box .tit_cont{font-size:11px;font-weight:400;color:#848484}
 .class_detail_wrap .cont_box{padding:0 4.6895%}
 .class_detail_wrap .big_section .main_video_box img{width:100%}
 .class_detail_wrap .big_section .main_video_info{padding:8px 0 8px 8px;border:1px solid #dfdfdf;box-sizing:border-box}
-.class_detail_wrap .big_section .main_video_info .tit{font-size:14px;color:#626262;font-weight:bold}
+.class_detail_wrap .big_section .main_video_info .tit{font-size:14px;font-weight:400;color:#626262;font-weight:bold}
 .class_detail_wrap .big_section .main_video_info .teacher{display:block;padding-top:3px;color:#919191;font-size:11px;}
-.class_detail_wrap .big_section .main_video_info .teacher::before{display:inline-block;position:static;width:6px;height:6px;margin-right:5px;background-position: -47px -37px;}
-.class_detail_wrap .info_tit{padding: 20px 0 5px;color: #2a2a2a;border-bottom: 2px solid #2a2a2a}
+.class_detail_wrap .big_section .main_video_info .teacher::before{display:inline-block;position:static;width:6px;height:6px;margin-right:5px;background-position: -47px -37px;vertical-align:1px}
+.class_detail_wrap .info_tit{padding: 20px 0 5px;color: #2a2a2a;font-weight:700;border-bottom: 2px solid #2a2a2a}
 .class_detail_wrap .video_list li{padding:13px;border-bottom:1px solid #b1b1b1}
 .class_detail_wrap .video_list li a{display:block;position:relative;min-height:36px;padding:2px 0 0 80px}
 .class_detail_wrap .video_list li .thumb{position:absolute;left:0;top:0;width:65px;height:36px}
@@ -272,14 +272,14 @@ input{margin:0;padding:0;border:0 none;}
 .class_detail_wrap .video_list .tag.complete{background: #ff3848;}
 .class_detail_wrap .video_list .tag.not_ready{background: #929292;}
 .class_detail_wrap .video_list li .time{font-size:11px;color:#929292}
-.class_detail_wrap .video_list li .tit{display:block;font-size:13px;color:#2b2b2b;font-weight:bold}
+.class_detail_wrap .video_list li .tit{display:block;font-size:13px;color:#2b2b2b;font-weight:400}
 
 .sub_myclass02 .sub_content{padding:0 4.6895% 35px 4.6895%}
-.sub_myclass02 .myclass_tit{padding: 20px 0 5px;color: #2a2a2a;border-bottom: 2px solid #2a2a2a;}
+.sub_myclass02 .myclass_tit{padding: 20px 0 5px;color: #2a2a2a;font-weight:700;border-bottom: 2px solid #2a2a2a;}
 .sub_myclass02 .myclass_list li{position:relative;padding:15px 0 15px 75px;border-bottom:1px solid #707070}
 .sub_myclass02 .myclass_list li .thumb{position:absolute;left:0;top:15px;width:65px;height:35px}
-.sub_myclass02 .myclass_list li .tit{font-size:14px;font-weight:bold;color:#2b2b2b}
-.sub_myclass02 .myclass_list li .text{display:block;padding-top:5px;font-size:11px;color:#828282;letter-spacing:-1px}
+.sub_myclass02 .myclass_list li .tit{font-size:14px;font-weight:700;color:#2b2b2b}
+.sub_myclass02 .myclass_list li .text{display:block;padding-top:5px;font-size:11px;color:#828282;font-weight:300;letter-spacing:-1px}
 .sub_myclass02 .myclass_list li .btn_area{margin-top:15px;text-align:right}
 .sub_myclass02 .myclass_list li .btn_area a{display:inline-block;width:95px;height:25px;text-align:center;line-height:25px;border-radius:25px;box-sizing:border-box}
 .sub_myclass02 .myclass_list li .btn_area .btn_review{color:#ff3848;border:1px solid #ff3848} 
@@ -300,9 +300,9 @@ input{margin:0;padding:0;border:0 none;}
 .sub_cart .cart_list li .item_num .btn_minus{width:11px;height:11px;border-right:1px solid #cbcbcb;background-position: -67px 0;vertical-align:top}
 .sub_cart .cart_list li .item_num .btn_plus{width:11px;height:11px;border-left:1px solid #cbcbcb;background-position: -80px 0;vertical-align:top}
 .sub_cart .cart_list li .btn_area{margin-top:5px;text-align:right}
-.sub_cart .cart_list li .btn_area a{display:inline-block;width:95px;height:25px;margin:0;text-align:center;line-height:25px;color:#fff;background-color: #ff3848;border-radius:25px;box-sizing:border-box}
+.sub_cart .cart_list li .btn_area a{display:inline-block;width:95px;height:25px;margin:0;text-align:center;line-height:25px;color:#fff;background-color: #ff3848;border-radius:25px;box-sizing:border-box;font-weight:700}
 .sub_cart .sub_content .btn_area{margin-top:14px;text-align:center}
-.sub_cart .sub_content .btn_area a{display:inline-block;width:138px;height:25px;margin:0 2px;line-height:25px;border-radius:25px;color:#fff}
+.sub_cart .sub_content .btn_area a{display:inline-block;width:138px;height:25px;margin:0 2px;line-height:25px;border-radius:25px;color:#fff;font-weight:700}
 .sub_cart .sub_content .btn_area .btn_delete{background-color: #2b2b2b;}
 .sub_cart .sub_content .btn_area .btn_payment_all{background-color: #ff3848;}
 
@@ -311,8 +311,8 @@ input{margin:0;padding:0;border:0 none;}
 .sub_payment_info .payment_state ul{overflow:hidden}
 .sub_payment_info .payment_state li{float:left;width:22%;text-align:center}
 .sub_payment_info .payment_state li.list2{width:34%}
-.sub_payment_info .payment_state li .tit{font-size:11px;letter-spacing:-1px}
-.sub_payment_info .payment_state li .num{display:block;margin-top:4px;color:#ff3848;font-size:25px;font-weight:bold}
+.sub_payment_info .payment_state li .tit{font-size:11px;letter-spacing:-1px;font-weight:400}
+.sub_payment_info .payment_state li .num{display:block;margin-top:4px;color:#ff3848;font-size:25px;font-weight:700}
 .sub_payment_info .select_date{padding-bottom:17px;border-bottom:1px solid #afafaf}
 .sub_payment_info .select_date select{width:31%;height: 25px;margin-right:1%;border: 1px solid #969696;font-size: 13px;box-sizing:border-box;background-color: #fff;}
 .sub_payment_info .select_date .btn_date{display: inline-block;position: relative;width:31%;height: 25px;padding: 0 8px 0 0;border: 1px solid #969696;font-size: 13px;color: #828282;line-height: 25px;
@@ -320,9 +320,9 @@ vertical-align: middle;text-align: right;box-sizing:border-box;}
 .sub_payment_info .select_date .btn_date:before{width:22px;height:22px;background-position: -69px -13px;}
 .sub_payment_info .payment_info_tit{padding: 20px 0 5px;color: #2a2a2a;border-bottom: 2px solid #2a2a2a;}
 .sub_payment_info .payment_info_list li{position:relative;padding:15px 0;border-bottom:1px solid #707070}
-.sub_payment_info .payment_info_list li .tit{display:block;color:#2b2b2b;font-size:14px;font-weight:bold}
-.sub_payment_info .payment_info_list li .price{position:absolute;right:0;top:15px;font-size:14px;color:#ff3848}
-.sub_payment_info .payment_info_list li .text{padding-top:5px;color:#828282}
+.sub_payment_info .payment_info_list li .tit{display:block;color:#2b2b2b;font-size:14px;font-weight:700}
+.sub_payment_info .payment_info_list li .price{position:absolute;right:0;top:15px;font-size:14px;color:#ff3848;font-weight:400}
+.sub_payment_info .payment_info_list li .text{padding-top:5px;color:#828282;font-weight:300}
 .sub_payment_info .payment_info_list li .btn_area{margin-top:15px;text-align:right}
 .sub_payment_info .payment_info_list li .btn_area a{display:inline-block;width:95px;height:25px;text-align:center;line-height:25px;border-radius:25px;box-sizing:border-box}
 .sub_payment_info .payment_info_list li .btn_area .btn_delivery{color:#ff3848;border:1px solid #ff3848} 
@@ -334,13 +334,45 @@ vertical-align: middle;text-align: right;box-sizing:border-box;}
 .sub_coupon .input_coupon_box .input_box01{width:75%;height: 25px;font-size: 12px;border: 1px solid #d4d4d4;box-sizing: border-box;text-indent: 5px;}
 .sub_coupon .input_coupon_box .btn_coupon{display:inline-block;width:24%;height: 25px;margin-left:1%;font-size: 12px;line-height:25px;text-align:center;color:#fff;background-color: #ff3848;}
 .sub_coupon .coupon_notice{padding:14px 10px 10px;background-color: #f6f6f6;}
-.sub_coupon .coupon_notice dt{padding-bottom:5px;font-weight:bold}
-.sub_coupon .coupon_notice dd{font-size:11px;letter-spacing:-1px;line-height:18px}
+.sub_coupon .coupon_notice dt{padding-bottom:5px;font-weight:400}
+.sub_coupon .coupon_notice dd{font-size:11px;letter-spacing:-1px;line-height:18px;font-weight:300}
 .sub_coupon .table_type1{margin-top:20px}
 .sub_coupon .table_type1{text-align:center}
 .sub_coupon .table_type1 table{table-layout:fixed}
-.sub_coupon .table_type1 th{padding:13px 0;font-size:11px;border-top:1px solid #d4d4d4;border-bottom:1px solid #919191;color:#828282;background-color: #fafafa;letter-spacing:-1px}
-.sub_coupon .table_type1 td{padding:13px 0;font-size:11px;border-bottom:1px solid #e8e8e8;letter-spacing:-1px;color:#2b2b2b}
+.sub_coupon .table_type1 th{padding:13px 0;font-size:11px;border-top:1px solid #d4d4d4;border-bottom:1px solid #919191;color:#828282;background-color: #fafafa;letter-spacing:-1px;font-weight:400}
+.sub_coupon .table_type1 td{padding:13px 0;font-size:11px;border-bottom:1px solid #e8e8e8;letter-spacing:-1px;color:#2b2b2b;font-weight:400}
 .sub_coupon .table_type1 .td_cont{position: relative;}
 .sub_coupon .table_type1 td .tit{display:block;font-size:12px;text-align:left;text-overflow:ellipsis;overflow:hidden;white-space: nowrap;}
 .sub_coupon .table_type1 td .coupon_state.active{color:#ff3848}
+
+.layer_popup .layer_content{position: fixed;top: 10%;left: 4.6895%;right:4.6895%;z-index: 1100;background: #fff;}
+.layer_payment_info .layer_content{padding:0 3.44827% 20px 3.44827%}
+.layer_payment_info .layer_content .layer_tit{display:block;padding:20px 0 5px;border-bottom:2px solid #2b2b2b;font-size:12px;color:#2b2b2b}
+.layer_payment_info .layer_content .btn_close{position:absolute;top:0;right:0;width:30px;height:40px}
+.layer_payment_info .layer_content .btn_close .sp{position:absolute;top:50%;left:50%;width:13px;height: 13px;margin:-7px 0 0 -7px;background-position: -15px -47px}
+.layer_payment_info .layer_content .table_type1{padding:7px 0;border-bottom:1px solid #e8e8e8;}
+.layer_payment_info .layer_content .table_type1 th{padding:7px 0 7px 5px;font-weight:400;font-size:12px;text-align:left}
+.layer_payment_info .layer_content .table_type1 td{font-size:12px;font-weight:300}
+.layer_payment_info .layer_content .notice{padding:10px 0 15px;font-size:11px;color:#828282;}
+.layer_payment_info .layer_content .table_type2{border-bottom:1px solid #e8e8e8}
+.layer_payment_info .layer_content .table_type2 th{padding:10px 0;font-size:12px;font-weight:400;background-color: #fafafa;color:#828282;border-bottom:1px solid #919191}
+.layer_payment_info .layer_content .table_type2 td{color:#2b2b2b;padding:10px 0;text-align:center;font-size:11px;font-weight:400;border-top:1px solid #e8e8e8}
+.layer_payment_info .layer_content .table_type2 .td_cont a{color:#2b2b2b;}
+.sub_payment_detail .layer_content .table_type2 td{font-size:11px;letter-spacing:-1px}
+.sub_payment_detail .layer_content .table_type2{padding-bottom:0;border-bottom:0}
+
+.layer_payment_info .price_list li{position:relative;min-height:25px;padding:8px 6px;line-height:25px;border-top:1px solid #e7e7e7}
+.layer_payment_info .price_list li:first-child{border-top:2px solid #919191}
+.layer_payment_info .price_list li .price{position: absolute;right:6px;top:8px}
+.layer_payment_info .price_list li .select_box03{width:48%;height:25px;margin-left:20%;border:1px solid #d4d4d4;box-sizing:border-box;background-color: #fff;}
+.layer_payment_info .price_list li.final_price{height:35px;border:1px solid #ff3549;background-color: #fff7f8}
+.layer_payment_info .price_list li.final_price{font-size:14px;color:#ff293e;font-weight:bold;line-height:35px}
+.layer_popup .layer_dimmed{position: fixed;top: 0;right: 0;bottom: 0;left: 0;z-index: 1000;background: rgba(0,0,0,.3);}
+
+.layer_coupon_info .layer_content{top:50%;left:50%;right:auto;width:200px;height:120px;margin:-60px 0 0 -100px;padding:0 10px;box-sizing: border-box}
+.layer_coupon_info .layer_content .layer_tit{display:block;padding:10px 0 5px;border-bottom:1px solid #ff3848;font-size:11px;color:#ff3848}
+.layer_coupon_info .layer_content .text{padding-top:18px;text-align:center;font-size:12px;color:#3d3d3d;font-weight:300;letter-spacing:-1px}
+.layer_coupon_info .layer_content .btn_area{margin-top:12px;text-align:center}
+.layer_coupon_info .layer_content .btn_area a{display:inline-block;width:44px;height:16px;line-height:16px;border-radius:16px;background-color: #ff3848;color:#fff;font-size:11px;font-weight:700}
+.layer_coupon_info .layer_content .btn_close{position:absolute;top:0;right:0;width:30px;height:30px}
+.layer_coupon_info .layer_content .btn_close .sp{position:absolute;top:50%;left:50%;width:13px;height: 13px;margin:-7px 0 0 -7px;background-position: -30px -47px}
