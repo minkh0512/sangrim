@@ -295,8 +295,8 @@ input{margin:0;padding:0;border:0 none;}
 .sub_cart .cart_list li .checkbox{position: absolute;left:0;top:15px}
 .sub_cart .cart_list li .tit{font-size:14px;font-weight:bold;color:#2b2b2b}
 .sub_cart .cart_list li .price{display:block;padding-top:5px;font-size:14px;color:#ff3848;}
-.sub_cart .cart_list li .item_num{position: absolute;right:0;top:15px;width:50px;height:13px;font-size:10px;color:#494949;line-height:11px;border:1px solid #cbcbcb;box-sizing:border-box}
-.sub_cart .cart_list li .item_num .num{display:inline-block;width:14px;padding:0 3px;text-align:center}
+.sub_cart .cart_list li .item_num{position: absolute;right:0;top:15px;width:50px;height:13px;border:1px solid #cbcbcb;box-sizing:border-box}
+.sub_cart .cart_list li .item_num .num{display:inline-block;width:18px;font-size:10px;color:#494949;line-height:11px;text-align:center;vertical-align: top}
 .sub_cart .cart_list li .item_num .btn_minus{width:12px;height:11px;border-right:1px solid #cbcbcb;background-position: -67px 0;vertical-align:top}
 .sub_cart .cart_list li .item_num .btn_plus{position:absolute;right:0;width:12px;height:11px;border-left:1px solid #cbcbcb;background-position: -80px 0;vertical-align:top}
 .sub_cart .cart_list li .btn_area{margin-top:5px;text-align:right}
@@ -409,8 +409,8 @@ vertical-align: middle;text-align: right;box-sizing:border-box;}
 .detail_list_wrap li.price{font-weight:700;color:#ff3848}
 .detail_list_wrap li strong{display:inline-block;width:32%;color:#828282;font-size:11px;}
 .detail_list_wrap li .price_before{margin-left:2px;font-size:10px;color:#828282;font-weight:300}
-.detail_list_wrap li .item_num{position:relative;display:inline-block;width:50px;height:13px;font-size:10px;color:#494949;line-height:11px;border:1px solid #cbcbcb;box-sizing:border-box}
-.detail_list_wrap li .item_num .num{display:inline-block;width:14px;padding:0 3px;text-align:center}
+.detail_list_wrap li .item_num{position:relative;display:inline-block;width:50px;height:13px;border:1px solid #cbcbcb;box-sizing:border-box}
+.detail_list_wrap li .item_num .num{display:inline-block;width:18px;font-size:10px;color:#494949;line-height:11px;text-align:center;vertical-align:top}
 .detail_list_wrap li .item_num .btn_minus{width:12px;height:11px;border-right:1px solid #cbcbcb;background-position: -67px 0;vertical-align:top}
 .detail_list_wrap li .item_num .btn_plus{position:absolute;right:0;width:12px;height:11px;border-left:1px solid #cbcbcb;background-position: -80px 0;vertical-align:top}
 
