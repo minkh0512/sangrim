@@ -19,7 +19,7 @@ input{margin:0;padding:0;border:0 none;}
 .header_top .login_list a{display:block;width:65px;height:23px;border:1px solid #ff3848;border-radius:23px;font-size:11px;font-weight:bold;color:#fff;text-align:center;line-height:23px;box-sizing: border-box}
 .header_top .login_list .list_login a{background:#ff3848}
 .header_top .logout{position:relative;z-index:1;padding:23px 7px 0 0;font-size:0}
-.header_top .logout p{display:inline-block;font-size:10px;font-weight:bold;color:#707070;line-height:23px}
+.header_top .logout p{display:inline-block;font-size:11px;font-weight:bold;color:#707070;line-height:23px}
 .header_top .logout .name{color:#c9c9c9}
 .header_top .logout .btn_logout{display:inline-block;width:65px;height:23px;margin-left:4px;border:1px solid #ff3848;border-radius:23px;background:#ff3848;font-size:11px;font-weight:bold;color:#fff;text-align:center;line-height:23px;box-sizing: border-box}
 .header_bottom{height:50px}
@@ -51,79 +51,86 @@ input{margin:0;padding:0;border:0 none;}
 .package_list li{display:inline-block;width:42.8125%;margin:15px 8px 0 8px;box-sizing:border-box;border:1px solid #bbb;box-shadow: 2px 6px 15px 0px rgba(0,0,0,0.3);}
 .package_list li img{width:100%}
 .package_list li .box_text{display:block;position:relative;min-height:70px;padding:7px;box-sizing:border-box;text-align:left}
-.package_list li .box_text .title{font-size:14px;color:#444}
-.package_list li .box_text .text{position:absolute;right:7px;bottom:7px;padding-right:8px;font-size:11px;font-weight:bold;color:#ff3848}
+.package_list li .box_text .title{font-size:13px;color:#444}
+.package_list li .box_text .text{position:absolute;right:7px;bottom:7px;padding-right:8px;font-size:10px;font-weight:bold;color:#ff3848}
 .package_list li .box_text .text:after{right:0;top:50%;width:5px;height:6px;margin-top:-2px;background-position: 100% 0;}
-.package_list .btn_more{display:block;height:45px;margin:15px 15px 0 15px;font-size:14px;color:#ff3848;line-height:45px;border:1px solid #ff3848;box-sizing:border-box;border-radius:7px;}
+.package_list .btn_more{display:block;height:45px;margin:15px 15px 0 15px;font-size:13px;color:#ff3848;line-height:45px;border:1px solid #ff3848;box-sizing:border-box;border-radius:7px;}
 .main_banner{margin:15px}
 .main_banner img{width:100%}
 
-.form_box .input_box{width:100%;height:32px;font-size:12px;text-indent:10px;text-align:left;border:1px solid #d3d3d3;box-sizing:border-box}
+.form_box .input_box{width:100%;height:32px;font-size:11px;text-indent:10px;text-align:left;border:1px solid #d3d3d3;box-sizing:border-box}
 .form_box .input_box + .input_box{margin-top:7px}
 .form_box .btn_login,
 .form_box .btn_find,
-.form_box .btn_next{width:210px;height:29px;margin:0 auto;color:#fff;line-height: 29px;background-color:#ff394a;border-radius:30px}
+.form_box .btn_next{width:125px;height:29px;margin:0 auto;font-size:12px;font-weight:bold;color:#fff;line-height: 29px;background-color:#ff394a;border-radius:30px;letter-spacing:-1px}
 
-.sub_login{position:relative;padding:0 0 30px;text-align:center}
+.sub_login{position:relative;padding:0 0 50px;text-align:center}
 .sub_login:before{content:"";display:block;position:absolute;top:0;right:15px;left:15px;height:1px;background:#ff3848}
-.sub_login .tit{padding:25px 0}
-.sub_login .tit img{width:50px}
+.sub_login .tit{padding:52px 0 20px}
+.sub_login .tit img{width:55px}
 .sub_login .form_box{padding:0 17.1875%}
-.sub_login .btn_list{margin:25px 0 20px;text-align:center;font-size:0;}
+.sub_login .btn_list{margin:17px 0 18px;text-align:center;font-size:0;}
 .sub_login .btn_list li{display:inline-block}
 .sub_login .btn_list li + li:before{content:'';display:inline-block;width:1px;height:8px;margin:0 3px;background-color:#bebebe;vertical-align: middle;}
-.sub_login .btn_list li a{font-size:12px;color:#848484}
+.sub_login .btn_list li a{font-size:11px;color:#848484}
 
-.sub_find{position:relative;padding:0 0 30px;text-align:center}
+.sub_find{position:relative;padding:0 0 50px;text-align:center}
 .sub_find:before{content:"";display:block;position:absolute;top:0;right:15px;left:15px;height:1px;background:#ff3848}
-.sub_find .tit{padding:25px 0}
-.sub_find .tit img{width:84px}
+.sub_find .tit{padding:47px 0 10px}
+.sub_find .tit img{width:92px}
+.sub_find .input_box{margin-bottom:30px}
 .sub_find02 .tit img{width:99px}
 .sub_find .form_box{padding:0 17.1875%}
-.sub_find .notice{margin:25px 0 20px;letter-spacing:-1px}
+.sub_find .notice{margin:0 0 20px;letter-spacing:-1px}
 
 .sub_join{position:relative;text-align:center;padding-bottom:35px}
 .sub_join:before{content:"";display:block;position:absolute;top:0;right:15px;left:15px;height:1px;background:#ff3848}
-.sub_join .join_tit{padding:25px 0}
-.sub_join .join_tit img{width:67px}
+.sub_join .join_tit{padding:27px 0 20px}
+.sub_join .join_tit img{width:73px}
 .sub_join .join_step{padding:0 4.6895%;font-size:0}
-.sub_join .join_step li{position:relative;display:inline-block;width:33.333%;padding:6px 0 9px;font-size:12px;text-align:center}
+.sub_join .join_step li{position:relative;display:inline-block;width:33.333%;padding:6px 0 9px;font-size:10px;font-weight:bold;text-align:center}
+.sub_join .join_step li.active{color:#ff3848}
 .sub_join .join_step li:after{content:'';position:absolute;left:0;right:0;bottom:0;height:1px;width:100%;background-color: #919191;}
 .sub_join .join_step li.active:after{height:3px;background-color:#ff394a;}
-.sub_join .notice{margin:20px 0;text-align:center;font-size:14px;color:#444;letter-spacing:-1px;line-height:20px}
+.sub_join .notice{margin:20px 0;text-align:center;font-size:11px;color:#444;letter-spacing:-1px;line-height:20px}
 .sub_join .term_wrap{position:relative;margin:25px 0 35px;padding:0 4.6895%;}
-.sub_join .term_wrap .tit{color:#2b2b2b;letter-spacing:-1px;text-align:left}
+.sub_join .term_wrap .tit{font-size:10px;color:#2b2b2b;letter-spacing:-1px;text-align:left}
 .sub_join .term_wrap .check_box{position: absolute;right:4.6895%;top:0}
-.sub_join .term_wrap .check_box label{letter-spacing:-1px}
-.sub_join .term_wrap .term_box{overflow-y:auto;height:105px;margin-top:5px;padding:5px;border:1px solid #d4d4d4;box-sizing:border-box;text-align:left}
-.sub_join02 .join-form_tit{margin:0 4.6895%;padding-bottom:5px;text-align:left;font-size:13px;color:#2b2b2b;border-bottom:2px solid #2b2b2b}
+.sub_join .term_wrap .check_box label{font-size:10px;letter-spacing:-1px}
+.sub_join .term_wrap .term_box{overflow-y:auto;height:105px;margin-top:5px;padding:5px;border:1px solid #d4d4d4;font-size:10px;box-sizing:border-box;text-align:left}
+.sub_join01 .term_wrap + .term_wrap{margin-bottom:15px}
+.sub_join01 .etc_term{margin-bottom:30px;text-align:left;padding:0 4.6895%;font-size:10px;color:#828282}
+.sub_join01 .etc_term li{position:relative;padding-left:15px;margin-top:15px}
+.sub_join01 .etc_term input[type="checkbox"]{position:absolute;top:1px;left:0}
+.sub_join02 .join-form_tit{margin:0 4.6895%;padding-bottom:5px;text-align:left;font-size:10px;color:#2b2b2b;border-bottom:2px solid #2b2b2b}
 .sub_join02 .join-form_tit.essential:after{content:'';display:inline-block;width:3px;height:3px;margin-left:2px;border-radius:2px;background-color: #ff3848;vertical-align:top}
 .sub_join02 .join-form_list{overflow:hidden;margin:0 4.6895%;padding:10px 0 30px;text-align:left}
-.sub_join02 .join-form_list dt{float:left;width:25%;padding-top:3px;letter-spacing:-1px}
-.sub_join02 .join-form_list dd{position:relative;padding-left:25%;margin-bottom:5px}
-.sub_join02 .join-form_list dd input{height:25px;font-size:12px;border:1px solid #d4d4d4;box-sizing:border-box;text-indent:5px}
+.sub_join02 .join-form_list dt{float:left;width:65px;padding-top:10px;letter-spacing:-1px;font-size:10px}
+.sub_join02 .join-form_list dd{position:relative;padding-left:65px;margin-bottom:5px}
+.sub_join02 .join-form_list dd input{height:35px;font-size:10px;border:1px solid #d4d4d4;box-sizing:border-box;text-indent:5px}
 .sub_join02 .join-form_list dd input::placeholder{letter-spacing:-1px}
 .sub_join02 .join-form_list dd .input_box01{width:100%}
 .sub_join02 .join-form_list dd .input_box03{float:left;width:76.3%}
 .sub_join02 .join-form_list dd .input_box04{float:left;width:30%}
 .sub_join02 .join-form_list dd .input_box05{width: 46.8%}
 .sub_join02 .join-form_list dd .align_box{overflow: hidden;}
-.sub_join02 .join-form_list dd .align_box .input_box02{float:left;width:23.4%}
-.sub_join02 .join-form_list dd .align_box .bar{float:left;width:3%;text-align:center;line-height:25px;}
-.sub_join02 .join-form_list dd .align_box .bar-a{float:left;width:5.5%;text-align:center;line-height:25px;}
+.sub_join02 .join-form_list dd .align_box .input_box02{float:left;width:31.3%}
+.sub_join02 .join-form_list dd .align_box .bar{float:left;width:3%;text-align:center;line-height:35px;}
+.sub_join02 .join-form_list dd .align_box .bar-a{float:left;width:5.5%;text-align:center;line-height:35px;}
 .sub_join02 .join-form_list dd .align_box .select_box01{width:33%;height:25px;margin-left:1.5%;border:1px solid #d4d4d4;box-sizing:border-box;background-color: #fff}
-.sub_join02 .join-form_list dd .align_box .select_box02{width:25%;height:25px;border:1px solid #d4d4d4;box-sizing:border-box;background-color: #fff}
-.sub_join02 .join-form_list dd .btn{float:left;width:22.6%;height:25px;margin-left:1%;background-color: #ff3848;line-height:25px;color:#fff;text-align:center;border-radius:0;letter-spacing:-1px}
-.sub_join02 .join-form_list dd .notice{margin:5px 0 0;font-size:12px;text-align:left}
+.sub_join02 .join-form_list dd .align_box .select_box02{width:25%;height:35px;border:1px solid #d4d4d4;box-sizing:border-box;background-color: #fff;font-size:10px;}
+.sub_join02 .join-form_list dd .btn{float:left;width:22.6%;height:35px;margin-left:1%;background-color: #ff3848;font-size:10px;line-height:35px;color:#fff;text-align:center;border-radius:0;letter-spacing:-1px}
+.sub_join02 .join-form_list dd .notice{margin:5px 0 0;font-size:10px;text-align:left;color:#828282;line-height:13px}
 .select_gender{overflow: hidden;}
-.select_gender li{position:relative;float:left;width:50%;height:25px;}
-.select_gender li label{position:absolute;left:0;top:0;display:block;width:100%;height:25px;line-height:25px;border:1px solid #d4d4d4;box-sizing:border-box;text-align:center;background-color: #fff;}
+.select_gender li{position:relative;float:left;width:50%;height:35px;}
+.select_gender li label{position:absolute;left:0;top:0;display:block;width:100%;height:35px;line-height:35px;border:1px solid #d4d4d4;box-sizing:border-box;text-align:center;font-size:10px;background-color: #fff;}
 .select_gender li input:checked + label{background-color: #939393;color:#fff}
-.sub_join03 .notice{font-size:12px}
-.sub_join03 .notice .sp_before{display:block;font-size:15px}
-.sub_join03 .notice .sp_before:before{position:static;width:45px;height:45px;margin:44px auto 15px;background-position: 0 0}
-.sub_join03 .btn_box{margin-top:44px}
-.sub_join03 .btn_box a{display:inline-block;width:80px;height:25px;margin:0 5px;line-height:25px;border-radius:25px;box-sizing:border-box}
+.sub_join03{padding-bottom:45px}
+.sub_join03 .notice{font-size:10px}
+.sub_join03 .notice .sp_before{display:block;font-size:15px;color:#2b2b2b}
+.sub_join03 .notice .sp_before:before{position:static;width:24px;height:24px;margin:33px auto 15px;background-position: 0 -62px}
+.sub_join03 .btn_box{margin-top:30px}
+.sub_join03 .btn_box a{display:inline-block;width:100px;height:29px;margin:0 5px;line-height:29px;border-radius:29px;font-size:12px;font-weight:bold;box-sizing:border-box}
 .sub_join03 .btn_box .btn_home{border:1px solid #ff3848;color:#ff3848}
 .sub_join03 .btn_box .btn_login{background-color:#ff3848;color:#fff}
 
