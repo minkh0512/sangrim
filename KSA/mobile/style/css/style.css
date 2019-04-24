@@ -58,10 +58,10 @@ input{margin:0;padding:0;border:0 none;}
 
 .main_info{padding:20px 15px 30px;background:#F0F2F8}
 .main_info .box_top_info{margin-bottom: 15px;padding:20px 30px;background:#223F84;}
-.main_info .box_top_info .tit{}
-.main_info .box_top_info .text{}
-.main_info .box_top_info .btn_more{}
-.main_info .box_top_info .btn_more:after{}
+.main_info .box_top_info .tit{display:block;margin-bottom: 10px;font-size:16px;color:#fff;font-weight: 300;}
+.main_info .box_top_info .text{margin-bottom: 15px;font-size:12px;color:rgba(255,255,255,.5);}
+.main_info .box_top_info .btn_more{display:inline-block;width:92px;height:28px;border:1px solid rgba(255,255,255,.5);font-size:12px;color:#fff;text-align:center;line-height:28px;}
+.main_info .box_top_info .btn_more:after{display:inline-block;position:relative;top:-1px;width:24px;height:24px;background-position:-124px -36px;vertical-align:middle}
 .main_info .info_list{padding:0 0 10px;font-size:0;}
 .main_info .info_list li{display:inline-block;width:50%;box-sizing:border-box;vertical-align:top}
 .main_info .info_list li:nth-child(1){padding:0 5px 5px 0;}
@@ -73,10 +73,8 @@ input{margin:0;padding:0;border:0 none;}
 .main_info .info_list .text{margin-bottom: 15px;font-size:12px;line-height:17px;color:rgba(0,0,0,.5);}
 .main_info .info_list .btn_link{display:inline-block;width:92px;height:28px;border:1px solid #000;font-size:12px;color:rgba(0,0,0,.5);text-align:center;line-height:28px;}
 .main_info .info_list .btn_link:after{display:inline-block;position:relative;top:-1px;width:18px;height:18px;background-position:-226px 0;vertical-align:middle}
-.main_info .info_list .account_info{}
 .main_info .info_list .account_info .box{height:146px;padding:0 15px;background:#DCDFE8;}
-.main_info .info_list .account_info .tit{}
-.main_info .info_list .account_info .text{}
+.main_info .info_list .account_info .text{line-height:24px}
 .main_info .box_cs_info{padding:15px 20px 20px;background:#6DA7C8;}
 .main_info .box_cs_info .tit{display:block;margin-bottom: 10px;font-size:16px;font-weight:400;color:#fff;}
 .main_info .box_cs_info .call_num{display: block;position: relative;padding:0 0 2px 25px;font-size:16px;color:#fff;line-height:16px;}
