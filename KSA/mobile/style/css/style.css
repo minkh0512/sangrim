@@ -17,6 +17,8 @@ input{margin:0;padding:0;border:0 none;}
 .header_wrap .btn_menu{position:absolute;top:0;right:0;width:64px;height:64px;}
 .header_wrap .btn_menu:after{display:block;position:absolute;top:16px;right:17px;width:30px;height:30px;background-position:-34px -36px}
 .header_wrap .page_title{text-align:center;line-height:64px;font-size:20px;font-weight:400;color:#000}
+.header_wrap .link_prev{display:block;position:absolute;top:0;left:0;width:64px;height:64px}
+.header_wrap .link_prev:before{position:absolute;top:16px;left:16px;width:30px;height:30px;background-position:0 -36px}
 
 .right_menu_wrap{display:none;position:fixed;top:0;right:0;bottom:0;left:0;z-index:2000;background:rgba(0,0,0,.5)}
 .right_menu_wrap #menu{overflow-y:auto;position:absolute;top:0;right:0;bottom:0;width:228px;background:#F2F2F2;}
