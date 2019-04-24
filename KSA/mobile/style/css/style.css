@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/* common */
+body{min-width:320px;font-weight:500;color:#797979;overflow-x: hidden}
+input{margin:0;padding:0;border:0 none;}
+.for-a11y{position: absolute;width: 1px;height: 1px;margin: -1px;padding: 0;border: 0;clip: rect(0 0 0 0);overflow: hidden;text-indent: -5000em;}
+.sp,
+.sp_before:before,
+.sp_after:after{display:inline-block;overflow:hidden;background:url(../../img/sprite.png) no-repeat;background-size:250px auto;text-indent:-999em}
+.sp_before:before,
+.sp_after:after{content:'';display:block;position:absolute}
+
