@@ -160,3 +160,17 @@ input{margin:0;padding:0;border:0 none;}
 .box_form .agree_check .btn_view_agreement{position:absolute;right:0;top:15px;padding:0 10px 0 15px;height:29px;text-align:center;background-color: #fff;color:#000;border:1px solid #000;box-sizing:border-box;line-height:29px}
 .box_form .agree_check .btn_view_agreement:after{position:static;display:inline-block;width:18px;height:18px;margin-top:4px;vertical-align:top;background-position: -226px 0;}
 .box_content .btn_edu_apply{display:block;margin:0 16px;height:50px;line-height:50px;font-size:18px;font-weight:600;background-color:#3F5DA2;color:#fff;text-align:center}
+
+.list_edu_info{padding:0 16px 25px;font-size:0}
+.list_edu_info .item{display:inline-block;width:33.33%;padding:15px 6px 0;box-sizing:border-box;text-align:center}
+.list_edu_info .item img{width:100%}
+.list_edu_info .item .text{display:block;margin-top:8px;font-size:14px;font-weight:400;}
+.list_edu_info2{padding:0 16px 25px;font-size:0}
+.list_edu_info2 .item{display:inline-block;width:50%;padding:15px 6px 0;box-sizing:border-box;text-align:center;vertical-align:top}
+.list_edu_info2 .item img{width:100%}
+.list_edu_info2 .item .text{display:block;margin-top:8px;font-size:14px;font-weight:400;}
+
+.page_sub03_03 .list_edu_info2{padding-top:10px;border-top:1px solid #D5D5D5;}
+.page_sub03_03 .box_text .list_text li{padding-top:10px;font-weight:400}
+.box_text .list_text li.fee_info{display:block;padding:15px 0;opacity:1;}
+.page_sub03_03 .box_edu_info dd{padding-left:80px}
