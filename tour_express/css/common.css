@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+/* 2019.08.29 kang nuri */
+/* common.css */
+
+
+/**************************************************/
+
+body{
+	color: #444;
+	font-size: 13px;
+	font-family: AppleGothic, '맑은고딕', 'Malgun Gothic', '돋움', Dotum, Tahoma, sans-serif;
+	letter-spacing: -0.2px;
+	line-height: 1.692;
+}
+
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+input:focus{
+	outline: none;
+}
+
+button:focus{
+	outline: none;
+}
+
+/********/
+/* font */
+/********/
+
+h1{
+	display: inline;
+	font-size: 30px;
+}
+
+h2{
+	display: inline;
+	font-size: 24px;
+}
+
+h3{
+	display: inline;
+	font-size: 18px;
+}
+
+h4{
+	display: inline;
+	font-size: 15px;
+}
+
+h5{
+	display: inline;
+	font-size: 14px;
+}
+
+h6{
+	display: inline;
+	font-size: 13px;
+}
+
+.fontlato{
+	font-family: 'Lato', sans-serif;
+	letter-spacing: normal;
+}
+
+.fontbold{
+	font-weight: bold;
+}
+
+a:hover{
+	color: #db3614;
+}

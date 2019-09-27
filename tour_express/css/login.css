@@ -1,0 +1,412 @@
+@charset "utf-8";
+
+/* 2019.09.23 kang nuri */
+/* login.css */
+
+
+h6{
+	font-weight: normal;
+}
+
+/**************************************************/
+
+.contentsarea .areainner{
+	box-sizing: border-box;
+	border-top: solid 1px #ccc;
+	background-color: #fafafa;
+	min-height: 570px;
+	padding: 100px 0;
+}
+
+.contentsarea a{
+	cursor: pointer;
+}
+
+.contentsarea input[type="text"], .contentsarea input[type="password"]{
+	box-sizing: border-box;
+	width: 100%;
+	height: 40px;
+	padding: 0 10px;
+	border-radius: 2px;
+	border: solid 1px #ccc;
+}
+
+.contentsarea input:-ms-input-placeholder {
+	color: #bfbfbf !important;
+}
+
+.contentsarea input::-webkit-input-placeholder {
+	color: #bfbfbf;
+}
+
+.contentsarea input::-moz-placeholder {
+	color: #bfbfbf;
+}
+.contentsarea label{
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btn_cont .btnstyle1{
+	border-radius: 2px;
+	background-color: #f26422;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+}
+
+.btn_cont .btnstyle2{
+	width: 100px;
+	box-sizing: border-box;
+	height: 40px;
+	border: solid 1px #ccc;
+	background-color: #f9f9fa;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.alert_cont{
+	color: #f91c16;
+	font-size: 12px;
+	line-height: 1.5;
+	display: none;
+}
+
+/* CONTENTSAREA *************************************************/
+
+.loginfield{
+	width: 1150px;
+	margin: 0 auto;
+}
+
+.field_object{
+	width: 440px;
+	margin: 0 auto;
+	box-shadow: 0.7px 1.9px 3px 0 rgba(201, 201, 201, 0.15);
+}
+
+.field_object.find{
+	display: none;
+}
+
+.list_object li{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 220px;
+	height: 50px;
+	border: solid 1px #ccc;
+	background-color: #f6f7f7;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-align: center;
+	line-height: 49px;
+	font-weight: bold;
+	cursor: pointer;
+	float: left;
+}
+
+.list_object li.active{
+	background-color: #fff;
+	border-bottom: 0;
+}
+
+.inner_object{
+	box-sizing: border-box;
+	background-color: #fff;
+	border: solid 1px #ccc;
+	border-top: 0;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 50px;
+}
+
+.inner_object.nonmb{
+	display: none;
+}
+
+.inner_object.resetpw{
+	display: none;
+}
+
+/* LOGIN **************************/
+
+.login input{
+	margin-bottom: 20px;
+}
+
+.login .alert_cont{
+	margin-top: -10px;
+	margin-bottom: 20px;
+	padding: 0 10px;
+}
+
+.login .btn_cont{
+	margin-bottom: 30px;
+}
+
+.login .btn_cont .btnstyle1{
+	width: 100%;
+	height: 50px;
+}
+
+.list_other{
+	text-align: center;
+	font-size: 0;
+}
+
+.list_other li{
+	display: inline-block;
+	font-size: 13px;
+}
+
+.list_other li .divide{
+	display: inline-block;
+	width: 1px;
+	height: 10px;
+	background-color: #444;
+	margin: 0 15px;
+}
+
+.nonmb .list_other{
+	text-align: right;
+}
+
+/* FIND **************************/
+
+.findid .list_findtype li:first-child{
+	border-bottom: dotted 1px #ccc;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.find input{
+	margin-bottom: 20px;
+}
+
+.find input.authnumb{
+	width: 230px;
+	padding-right: 50px;
+	margin-bottom: 5px;
+}
+
+.authtime{
+	position: absolute;
+	margin-left: -40px;
+	line-height: 40px;
+	color: #f00;
+}
+
+.btn_cont.auth{
+	float: right;
+}
+
+.opentooltip{
+	display: inline-block;
+	position: relative;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+.opentooltip:hover{
+	text-decoration: underline;
+}
+
+.find .alert_cont{
+	display: block;
+	visibility: hidden;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.find .btn_cont a{
+	line-height: 40px;
+}
+
+.find .btn_cont a span{
+	font-size: 16px;
+	margin-right: 5px;
+}
+
+.find .btn_cont .btnstyle1{
+	width: 100px;
+	height: 40px;
+	float: right;
+}
+
+.list_findstep{
+	margin-bottom: 25px;
+}
+
+.list_findstep li{
+	height: 50px;
+	margin-right: 4px;
+	text-align: center;
+	float: left;
+}
+
+.list_findstep li:last-child{
+	margin-right: 0;
+}
+
+.list_findstep li .steptitle{
+	box-sizing: border-box;
+	display: block;
+	width: 110px;
+	height: 50px;
+	padding-top: 7px;
+	border-radius: 5px;
+	background-color: rgba(50,65,94,.5);
+	color: #fff;
+	font-weight: bold;
+	line-height: 1.38;
+}
+
+.list_findstep li.active .steptitle{
+	background-color: rgba(50,65,94,1);
+}
+
+.list_findstep li.active .list_arr{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: rgba(50,65,94,1);
+	transform: rotate(45deg);
+	float: left;
+	margin-left: 50px;
+	margin-top: -6px;
+}
+
+.list_findinstep .twostep, .list_findinstep .threestep{
+	display: none;
+}
+
+.list_findinstep .onestep input{
+	margin-bottom: 60px;
+}
+
+.list_findinstep .twostep .list_findtype li{
+	padding-bottom: 10px;
+}
+
+.list_findinstep .twostep .list_findtype li:last-child{
+	border-bottom: dotted 1px #ccc;
+	margin-bottom: 20px;
+}
+
+.list_findinstep .threestep input{
+	margin-bottom: 0;
+}
+
+.condition_box{
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+.list_condition{
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	color: #9e9e9e;
+}
+
+.list_condition li{
+	margin-bottom: 5px;
+}
+
+.list_condition li:last-child{
+	margin-bottom: 0;
+}
+
+.list_condition li.active{
+	color: #444;
+}
+
+.list_condition li img{
+	position: relative;
+	top: 3px;
+	margin-right: 5px;
+}
+
+.list_findinstep .threestep .alert_cont{
+	margin-top: 5px;
+	margin-bottom: 40px;
+}
+
+.resetpw .btn_cont button span{
+	font-size: 20px;
+	line-height: 15px;
+	margin-left: 10px;
+}
+
+.resetpw .btn_cont .btnstyle1.confirm{
+	display: none;
+}
+
+/* TOOLTIP **************************/
+
+.tooltip_box{
+	display: none;
+	position: absolute;
+	text-align: center;
+	z-index: 100;
+	margin-left: -55px;
+	margin-top: -285px;
+}
+
+.tooltip_arr{
+	position: relative;
+	top: -11px;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-color: rgba(161,134,190,1);
+	transform: rotate(45deg);
+}
+
+.tooltip_inner{
+	box-sizing: border-box;
+	width: 215px;
+	background-color: rgba(161,134,190,1);
+	box-shadow: 0px 3px 4px 0 rgba(0, 0, 0, 0.1);
+	color: #fff;
+	text-align: left;
+	padding: 20px;
+	border-radius: 2px;
+	letter-spacing: -0.33px;
+	line-height: 18px;
+}
+
+/* POPUP *************************************************/
+
+.layerpopup{
+	display: none;
+	position: absolute;
+	top: 40%;
+	box-sizing: border-box;
+	width: 286px;
+	height: 140px;
+	margin-left: 432px;
+	background-color: #fff;
+	border-radius: 2px;
+	box-shadow: 0px 3px 4px 0 rgba(0, 0, 0, 0.1);
+	border: solid 1px #ccc;
+	padding: 20px 0;
+	text-align: center;
+	z-index: 200;
+}
+
+.lrpop_inner .btnstyle1{
+	width: 100px;
+	height: 38px;
+	margin-top: 30px;
+}
+
+.mask{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}

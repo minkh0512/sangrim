@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<!-- 2019.09.23 kang nuri -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>TourExpress_login</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/member.css">  
+	<link rel="stylesheet" href="css/footer.css">
+	<!-- JS -->
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/member.js"></script>  
+	<script src="js/footer.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<header id="header">
+			<div class="toparea">
+				<div class="areainner clearfix">
+					<ul class="list_top">
+						<li>
+							<a href="#" onclick="">로그인</a>
+						</li>
+						<li>
+							<a href="#" onclick="">회원가입</a>
+						</li>
+						<li>
+							<a href="#" onclick="">마이페이지</a>
+						</li>
+						<li>
+							<div class="openmember">
+								<a>멤버쉽 <img src="./img/icons/icon-sort.png" alt="icon-sort"></a>
+							</div>
+							<div class="menu_member active">
+								<ul class="list_member clearfix">
+									<li><a href="#" onclick="">마일리지</a></li>
+									<li><a href="#" onclick="">캐시</a></li>
+									<li><a href="#" onclick="">회원등급안내</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="#" onclick="">고객센터</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="gnbarea">
+				<div class="areainner clearfix">
+					<div class="logo_gnb">
+						<a href="#" onclick="">
+							<img src="./img/header/logo_header.png" alt="logo_header">
+						</a>
+					</div>
+					<ul class="list_gnb">
+						<li>
+							<a href="#" onclick="">기획전/이벤트</a>
+						</li>
+						<li>
+							<a href="#" onclick="">여행 할인 쿠폰</a>
+						</li>
+						<li>
+							<a href="#" onclick="">법인회원/단체항공권</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<section id="container">
+			<div class="contentsarea">
+				<div class="areainner">
+
+					<div class="box_member_wrap box_member_wrap01">
+						<div class="box_title">
+							<h1 class="text_title">회원가입</h1>
+							<ol class="list_step">
+								<li class="list-item1 active">약관동의</li>
+								<li class="list-item2">회원정보 입력</li>
+								<li class="list-item3">가입완료</li>
+							</ol>
+						</div>
+						<div class="box_content">
+							<form>
+								<div class="box_all_check">
+									<div class="form_checkbox">
+										<input type="checkbox" id="allCkeck">
+										<label for="allCkeck">전체 약관에 동의합니다.</label>
+									</div>
+								</div>
+								<div class="box_check_list">
+									<p class="text_noti">※ 투어익스프레스는 공정거래위원회에서 심의한 표준약관을 사용하고 있습니다. (Terms and conditions)</p>
+									<ul class="list_check">
+										<li>
+											<div class="form_checkbox">
+												<input type="checkbox" id="termsCheck1">
+												<label for="termsCheck1">투어익스프레스 온라인몰 회원약관 (필수)</label>
+											</div>
+											<button type="button" class="btn_terms">약관보기</button>
+											<div class="layer_term_wrap">
+												<div class="layer_terms">
+													<div class="layer_title">
+														<p class="text_title">개인정보 취급위탁 동의</p>
+														<button type="button" class="btn_close"><span class="for-a11y">닫기</span></button>
+													</div>
+													<div class="layer_content">
+														<div class="box_scroll">
+															<p class="text">&lt;수집한 개인정보의 위탁&gt;<br>
+																① 회사는 보다 나은 서비스 제공과 고객 편의 제공 등 업무수행을 원활하게 하기 위해 
+																고객의 개인정보를 제한된 범위 내에서 수집, 보관, 처리 등을 위탁하여 처리하고 있습니다.</p>
+															<table class="table">
+																<caption>개인정보 위탁 안내표</caption>
+																<colgroup>
+																	<col style="width:25%">
+																	<col style="width:25%">
+																	<col style="width:25%">
+																	<col style="width:25%">
+																</colgroup>
+																<thead>
+																	<tr>
+																		<th scope="row">서비스영역</th>
+																		<th scope="row">위탁업체</th>
+																		<th scope="row">제공받는 항목</th>
+																		<th scope="row">제공항목·이용목적</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>여행상품 예약/상담</td>
+																		<td>㈜모두투어, ㈜하나투어, ㈜여행박사</td>
+																		<td>이름, 생년월일, 성별, 연락처, 로그인ID, 이메일, 마일리지정보, 여권번호, </td>
+																		<td>회원제 서비스 이용에 따른 본인확인, 개인 식별, 연령확인</td>
+																	</tr>
+																</tbody>
+															</table>
+															<p class="text">회원가입 및 서비스 이용 과정에서 이용자가 개인정보 수집에 대해 동의를 하고 직접 정보를 입력하는 경우, 해당 개인정보를 수집합니다.</p>
+														</div>
+														<a href="#" class="btn_agree">동의합니다</a>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="form_checkbox">
+												<input type="checkbox" id="termsCheck2">
+												<label for="termsCheck2">개인정보 수집 및 이용에 대한 안내 (필수) </label>
+											</div>
+											<button type="button" class="btn_terms">약관보기</button>
+										</li>
+										<li>
+											<div class="form_checkbox">
+												<input type="checkbox" id="termsCheck3">
+												<label for="termsCheck3">개인정보 제3자 제공 동의 (선택)</label>
+											</div>
+											<button type="button" class="btn_terms">약관보기</button>
+										</li>
+										<li>
+											<div class="form_checkbox">
+												<input type="checkbox" id="termsCheck4">
+												<label for="termsCheck4">개인정보 취급위탁 동의 (선택)</label>
+											</div>
+											<button type="button" class="btn_terms">약관보기</button>
+										</li>
+									</ul>
+								</div>
+								<div class="btn_step_area">
+									<a href="#" class="btn btn_next">다음</a>
+									<a href="#" class="btn btn_home">홈으로</a>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="layer_member_alert">
+						<p class="text">필수 약관에 동의해주세요.</p>
+						<button type="button" class="btn_ok">확인</button>
+					</div>
+
+				</div>
+				<div class="mask"></div>
+			</div>
+		</section>
+		<footer id="footer">
+			<div class="noticearea">
+				<div class="areainner clearfix">
+					<div class="noticefield">
+						<p class="tit_noti">공지사항<a href="#" onclick=""><span class="more_noti">+ 더보기</span></a></p>
+						<ul class="list_notice">
+							<li>
+								<a href="#" onclick="">
+									<span class="cate_noti">[해외 항공]</span>스쿠트항공 시스템 점검에 따른 일부 서비스 제한 안내<span class="date_noti">2019.08.06</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" onclick="">
+									<span class="cate_noti">[해외 항공]</span>스쿠트항공 시스템 점검에 따른 일부 서비스 제한 안내<span class="date_noti">2019.07.30</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" onclick="">
+									<span class="cate_noti">[해외 항공]</span>뉴질랜드(eTA) 전자여행 허가증 시행 안내<span class="date_noti">2019.07.29</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" onclick="">
+									<span class="cate_noti">[국내 항공]</span>에어부산 국내선 시스템 점검 안내<span class="date_noti">2019.07.26</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="noticefield">
+						<p class="tit_noti">고객센터</p>
+						<ul class="list_center">
+							<li>
+								해외 항공<span class="numb_center">02-2022-6500</span>
+							</li>
+							<li>
+								해외 호텔<span class="numb_center">02-2022-6446</span>
+							</li>
+							<li>
+								해외 여행<span class="numb_center">02-2022-6400</span>
+							</li>
+							<li>
+								국내 여행<span class="numb_center">02-2022-6600</span>
+							</li>
+						</ul>
+						<div class="time_center">
+							<p>[상담 시간]</p>
+							<p>평일 09:00 - 18:00</p>
+						</div>
+						<div class="contact_center">
+							<div class="btn_cont">
+								<button type="button" type="button" class="btnstyleico btn01"><img src="./img/footer/icon_monitor.png" alt="icon_monitor">1:1 문의 남기기</button>
+							</div>
+							<div class="btn_cont">
+								<button type="button" type="button" class="btnstyleico btn02"><img src="./img/footer/icon_kakao.png" alt="icon_kakao">카카오톡 상담</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="fnbarea">
+				<div class="areainner">
+					<ul class="list_fnb">
+						<li>
+							<a href="#" onclick="">회사소개</a>
+						</li>
+						<li>
+							<a href="#" onclick=""><span class="fontbold">개인정보처리방침</span></a>
+						</li>
+						<li>
+							<a href="#" onclick="">서비스이용약관</a>
+						</li>
+						<li>
+							<a href="#" onclick="">여행약관</a>
+						</li>
+						<li>
+							<a href="#" onclick="">사이트맵</a>
+						</li>
+					</ul>
+					<div class="family_fnb">
+						<div class="menu_family">
+							<ul class="list_family">
+								<li><a href="#" onclick=""><span class="fontsmpink">S.M. ENTERTAINMENT</span></a></li>
+								<li><a href="#" onclick=""><span class="fontsmpink">SM C&amp;C</span></a></li>
+								<li><a href="#" onclick="">SMTOWN TRAVEL</a></li>
+								<li><a href="#" onclick="">S.M GLOBAL PACKAGE</a></li>
+								<li><a href="#" onclick="">HOTELTREES</a></li>
+								<li><a href="#" onclick="">SMTOWN now</a></li>
+								<li><a href="#" onclick="">SMTOWN@coexatium</a></li>
+								<li><a href="#" onclick="">SMT SEOUL</a></li>
+								<li><a href="#" onclick="">everysing</a></li>
+								<li><a href="#" onclick="">everyshot</a></li>
+								<li><a href="#" onclick="">바이럴(vylr)</a></li>
+								<li><a href="#" onclick="">미스틱엔터테인먼트</a></li>
+								<li><a href="#" onclick="">ESteem</a></li>
+								<li><a href="#" onclick="">갤럭시아 SM</a></li>
+							</ul>
+						</div>
+						<div class="openfamily">
+							<a>SM C&amp;C 관계사 바로가기<img src="./img/icons/icon-chevron.png" alt="icon-chevron"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footerarea">
+				<div class="areainner">
+					<div class="logo_footer">
+						<a href="#" onclick="">
+							<img src="./img/footer/logo_footer.png" alt="logo_footer">
+						</a>
+					</div>
+					<div class="text_footer">
+						<p>(주)SM C&amp;C 투어익스프레스</p>
+						<p>(우)04522 서울특별시 중구 무교로 20 어린이재단 빌딩 10층 대표이사 : 김동준&middot;남궁철 사업자 등록번호 : 104-85-19977</p>
+						<p>통신판매업신고번호 : 제 2008-서울중구-0955 호 관광사업등록증번호 : 제 2014-11호 (일반여행업)</p>
+						<p>COPYRIGHT&copy;SM C&amp;C CO.LTD.TOUREXPRESS&trade; .ALL RIGHTS RESERVED</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

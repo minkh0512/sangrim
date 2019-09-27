@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/* 2019.08.29 kang nuri */
+/* header.css */
+
+
+/**************************************************/
+
+.toparea{
+	box-sizing: border-box;
+	height: 30px;
+	border: solid 1px #ccc;
+	background-color: #f3f3f3;
+}
+
+#header .areainner{
+	width: 1150px;
+	margin: 0 auto;
+}
+
+.list_top {
+	float: right;
+}
+
+.list_top li{
+	display: inline-block;
+	font-size: 12px;
+	line-height: 28px;
+	margin-left: 30px;
+}
+
+.openmember a{
+	cursor: pointer;
+}
+
+.openmember a img{
+	position: relative;
+	margin-left: 3px;
+}
+
+.openmember a img.active{
+	transform: rotate(180deg);
+	top: -2px;
+}
+
+.menu_member{
+	display: none;
+	position: absolute;
+	margin-left: -11px;
+	box-sizing: border-box;
+	width: 100px;
+	height: 100px;
+	border: solid 1px #ccc;
+	background-color: #fff;
+	padding: 10px;
+	z-index: 100;
+}
+
+.list_member li{
+	width: 100%;
+	line-height: 25px;
+	margin: 0;
+	float: left;
+}
+
+/**************************************************/
+
+.gnbarea{
+	padding: 21.5px 0;
+}
+
+.logo_gnb{
+	font-size: 0;
+	float: left;
+}
+
+.list_gnb{
+	float: right;
+}
+
+.list_gnb li{
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 37px;
+	margin-left: 40px;
+}

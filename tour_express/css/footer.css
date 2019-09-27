@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+/* 2019.08.29 kang nuri */
+/* footer.css */
+
+
+/**************************************************/
+
+.noticearea{
+	padding: 30px 0;
+}
+
+#footer .areainner{
+	width: 1150px;
+	margin: 0 auto;
+}
+
+.noticefield{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 50%;
+	border-right: solid 1px #ccc;
+	padding-right: 90px;
+	float: left;
+}
+
+.noticefield:last-child{
+	border-right: 0;
+	padding-left: 30px;
+	padding-right: 0;
+}
+
+.noticefield .tit_noti{
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.noticefield .more_noti{
+	font-size: 13px;
+	font-weight: normal;
+	float: right;
+}
+
+.list_notice .cate_noti{
+	margin-right: 10px;
+}
+
+.list_notice .date_noti{
+	float: right;
+}
+
+.list_center{
+	display: inline-block;
+}
+
+.list_center .numb_center{
+	margin-left: 15px;
+}
+
+.time_center, .contact_center{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.time_center{
+	padding: 20px;
+	margin-right: 60px;
+}
+
+.contact_center .btnstyleico{
+	width: 180px;
+	height: 36px;
+	line-height: 36px;
+	font-weight: bold;
+	border-radius: 3px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.contact_center .btnstyleico img{
+	vertical-align: middle;
+	margin-top: -2px;
+	margin-right: 15px;
+}
+
+.contact_center .btnstyleico.btn01{
+	color: #fff;
+	background-color: #32415e;
+	margin-bottom: 10px;
+}
+
+.contact_center .btnstyleico.btn02{
+	background-color: #fce000;
+}
+
+/**************************************************/
+
+.fnbarea{
+	box-sizing: border-box;
+	height: 40px;
+	border-top: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+}
+
+.list_fnb li{
+	display: inline-block;
+	line-height: 38px;
+	margin-right: 50px;
+	float: left;
+}
+
+.family_fnb{
+	box-sizing: border-box;
+	width: 230px;
+	height: 38px;
+	line-height: 38px;
+	border-left: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+	padding: 0 15px;
+	float: right;
+	cursor: pointer;
+}
+
+.family_fnb.active{
+	background-color: #f6f7f7;
+}
+
+.menu_family{
+	display: none;
+	position: absolute;
+	box-sizing: border-box;
+	width: 230px;
+	height: 330px;
+	border: solid 1px #ccc;
+	background-color: #f6f7f7;
+	padding: 10px 15px;
+	margin-top: -330px;
+	margin-left: -16px;
+}
+
+.list_family li{
+	width: 100%;
+	line-height: 22px;
+	float: left;
+}
+
+.list_family li .fontsmpink{
+	color: #f385a1;
+	font-weight: bold;
+}
+
+.openfamily img{
+	position: relative;
+	float: right;
+	margin-top: 18px;
+}
+
+.openfamily img.active{
+	transform: rotate(180deg);
+	top: 1px;
+}
+
+/**************************************************/
+
+.footerarea{
+	padding: 30px 0 60px 0;
+}
+
+.logo_footer{
+	font-size: 0;
+	float: left;
+	margin-right: 30px;
+}
+
+.text_footer{
+	display: inline-block;
+	font-size: 11px;
+}

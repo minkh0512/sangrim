@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/* 2019.09.25 kang nuri */
+/* popup.css */
+
+
+h6{
+	font-weight: normal;
+}
+
+/**************************************************/
+
+.contentsarea a{
+	cursor: pointer;
+}
+
+.contentsarea input:-ms-input-placeholder {
+	color: #bfbfbf !important;
+}
+
+.contentsarea input::-webkit-input-placeholder {
+	color: #bfbfbf;
+}
+
+.contentsarea input::-moz-placeholder {
+	color: #bfbfbf;
+}
+
+/* #popupLogin *************************************************/
+
+#popupLogin input{
+	box-sizing: border-box;
+	width: 100%;
+	height: 40px;
+	padding: 0 10px;
+	border-radius: 2px;
+	border: solid 1px #ccc;
+	margin-bottom: 20px;
+}
+
+#popupLogin .logo_cont{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#popupLogin .btn_cont{
+	margin-bottom: 30px;
+}
+
+#popupLogin .btn_cont .btnstyle1{
+	width: 100%;
+	height: 50px;
+	border-radius: 2px;
+	background-color: #777;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+}
+
+#popupLogin .btn_cont .btnstyle1.active{
+	background-color: #f26422;
+	margin-bottom: 10px;
+}
+
+#popupLogin .alert_cont{
+	display: none;
+	margin-top: -10px;
+	margin-bottom: 20px;
+	padding: 0 10px;
+	color: #f91c16;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+#popupLogin .field_object{
+	width: 440px;
+	margin: 0 auto;
+}
+
+#popupLogin .inner_object{
+	box-sizing: border-box;
+	padding: 50px;
+}
+
+#popupLogin .list_other{
+	text-align: center;
+	font-size: 0;
+}
+
+#popupLogin .list_other li{
+	display: inline-block;
+	font-size: 13px;
+}
+
+#popupLogin .list_other li .divide{
+	display: inline-block;
+	width: 1px;
+	height: 10px;
+	background-color: #444;
+	margin: 0 15px;
+}
